@@ -1,234 +1,33 @@
-const monthlyData = [
-  {
-    id: "jan",
-    year: 2025,
-    month: 1,
-    label: "Janeiro",
-    revenueTotal: 29752.32,
-    revenueOrdinary: 15732.35,
-    revenueExtra: 14019.97,
-    condoFee: 15476.25,
-    expenseTotal: 15836.87,
-    expenseOrdinary: 15436.87,
-    expenseExtra: 400.0,
-    expenseCategories: { personnel: 3817.02, contracts: 3911.24, materials: 250.8 },
-  },
-  {
-    id: "fev",
-    year: 2025,
-    month: 2,
-    label: "Fevereiro",
-    revenueTotal: 30212.42,
-    revenueOrdinary: 16214.46,
-    revenueExtra: 13997.96,
-    condoFee: 16123.31,
-    expenseTotal: 15003.33,
-    expenseOrdinary: 14166.08,
-    expenseExtra: 837.25,
-    expenseCategories: { personnel: 2878.32, contracts: 3742.54, materials: 805.0 },
-  },
-  {
-    id: "mar",
-    year: 2025,
-    month: 3,
-    label: "Março",
-    revenueTotal: 16807.82,
-    revenueOrdinary: 16167.62,
-    revenueExtra: 640.2,
-    condoFee: 16087.3,
-    expenseTotal: 22029.57,
-    expenseOrdinary: 13849.57,
-    expenseExtra: 8180.0,
-    expenseCategories: { personnel: 2918.38, contracts: 3992.54, materials: 199.9 },
-  },
-  {
-    id: "abr",
-    year: 2025,
-    month: 4,
-    label: "Abril",
-    revenueTotal: 15447.43,
-    revenueOrdinary: 15447.43,
-    revenueExtra: 0.0,
-    condoFee: 14709.24,
-    expenseTotal: 17959.57,
-    expenseOrdinary: 13036.11,
-    expenseExtra: 4923.46,
-    expenseCategories: { personnel: 2875.07, contracts: 3992.54, materials: 199.95 },
-  },
-  {
-    id: "mai",
-    year: 2025,
-    month: 5,
-    label: "Maio",
-    revenueTotal: 15407.88,
-    revenueOrdinary: 15407.88,
-    revenueExtra: 0.0,
-    condoFee: 15380.6,
-    expenseTotal: 19172.85,
-    expenseOrdinary: 17113.85,
-    expenseExtra: 2059.0,
-    expenseCategories: { personnel: 2969.75, contracts: 3992.54, materials: 1780.79 },
-  },
-  {
-    id: "jun",
-    year: 2025,
-    month: 6,
-    label: "Junho",
-    revenueTotal: 29447.52,
-    revenueOrdinary: 14738.48,
-    revenueExtra: 14709.04,
-    condoFee: 14709.24,
-    expenseTotal: 21580.98,
-    expenseOrdinary: 14880.98,
-    expenseExtra: 6700.0,
-    expenseCategories: { personnel: 2811.55, contracts: 6804.08, materials: 86.68 },
-  },
-  {
-    id: "jul",
-    year: 2025,
-    month: 7,
-    label: "Julho",
-    revenueTotal: 32537.2,
-    revenueOrdinary: 16268.71,
-    revenueExtra: 16268.49,
-    condoFee: 16268.71,
-    expenseTotal: 19355.88,
-    expenseOrdinary: 16855.88,
-    expenseExtra: 2500.0,
-    expenseCategories: { personnel: 2801.15, contracts: 6864.33, materials: 840.86 },
-  },
-  {
-    id: "ago",
-    year: 2025,
-    month: 8,
-    label: "Agosto",
-    revenueTotal: 30690.03,
-    revenueOrdinary: 15526.39,
-    revenueExtra: 15163.64,
-    condoFee: 15199.19,
-    expenseTotal: 11743.68,
-    expenseOrdinary: 11743.68,
-    expenseExtra: 0.0,
-    expenseCategories: { personnel: 692.56, contracts: 5584.33, materials: 624.4 },
-  },
-  {
-    id: "set",
-    year: 2025,
-    month: 9,
-    label: "Setembro",
-    revenueTotal: 30907.99,
-    revenueOrdinary: 15527.6,
-    revenueExtra: 15380.39,
-    condoFee: 15380.6,
-    expenseTotal: 17600.21,
-    expenseOrdinary: 17600.21,
-    expenseExtra: 0.0,
-    expenseCategories: { personnel: 4920.14, contracts: 8263.22, materials: 181.9 },
-  },
-  {
-    id: "out",
-    year: 2025,
-    month: 10,
-    label: "Outubro",
-    revenueTotal: 32103.7,
-    revenueOrdinary: 16051.96,
-    revenueExtra: 16051.74,
-    condoFee: 16051.96,
-    expenseTotal: 39207.0,
-    expenseOrdinary: 15292.7,
-    expenseExtra: 23914.3,
-    expenseCategories: { personnel: 3519.39, contracts: 6983.22, materials: 402.25 },
-  },
-  {
-    id: "nov",
-    year: 2025,
-    month: 11,
-    label: "Novembro",
-    revenueTotal: 27979.92,
-    revenueOrdinary: 13942.23,
-    revenueExtra: 14037.69,
-    condoFee: 14084.62,
-    expenseTotal: 37933.13,
-    expenseOrdinary: 18802.65,
-    expenseExtra: 19130.48,
-    expenseCategories: { personnel: 3783.48, contracts: 6983.22, materials: 555.6 },
-  },
-  {
-    id: "dez",
-    year: 2025,
-    month: 12,
-    label: "Dezembro",
-    revenueTotal: 32447.62,
-    revenueOrdinary: 16179.13,
-    revenueExtra: 16268.49,
-    condoFee: 16304.05,
-    expenseTotal: 38070.51,
-    expenseOrdinary: 18940.03,
-    expenseExtra: 19130.48,
-    expenseCategories: { personnel: 4276.02, contracts: 6983.22, materials: 352.2 },
-  },
-  {
-    id: "jan",
-    year: 2026,
-    month: 1,
-    label: "Janeiro",
-    revenueTotal: 28603.53,
-    revenueOrdinary: 14111.24,
-    revenueExtra: 14492.29,
-    condoFee: 14492.49,
-    expenseTotal: 35811.29,
-    expenseOrdinary: 16680.81,
-    expenseExtra: 19130.48,
-    expenseCategories: { personnel: 2920.75, contracts: 7055.32, materials: 159.4 },
-    source: "dados/202602.pdf",
-  },
-  {
-    id: "fev",
-    year: 2026,
-    month: 2,
-    label: "Fevereiro",
-    revenueTotal: 30600.47,
-    revenueOrdinary: 15220.08,
-    revenueExtra: 15380.39,
-    condoFee: 15415.94,
-    expenseTotal: 36120.35,
-    expenseOrdinary: 16989.87,
-    expenseExtra: 19130.48,
-    expenseCategories: { personnel: 2942.51, contracts: 7107.54, materials: 760.88 },
-    source: "dados/202603.pdf",
-  },
-];
+const DATA_CSV_PATH = "./dados/dados_extraidos.csv";
 
-const budgetData = {
-  monthlyBase: 17824.0,
-  reserveFund: 891.2,
-  optionalMaintenanceFund: 0.0,
-  monthlyTotal: 18715.2,
-  annualTotal: 224582.4,
+let csvRows = [];
+let monthlyData = [];
+let detailedExpenseData = {};
+let budgetData = {
+  monthlyBase: 0,
+  reserveFund: 0,
+  optionalMaintenanceFund: 0,
+  monthlyTotal: 0,
+  annualTotal: 0,
   adjustment: "Ajuste de 21,68%",
-  categories: [
-    { label: "Contratos Fixos", value: 7376.0 },
-    { label: "Despesa com Pessoal", value: 3481.0 },
-    { label: "Empresas Públicas e Privadas", value: 3450.0 },
-    { label: "Impostos e Tarifas", value: 1863.0 },
-    { label: "Serviços de Conservação", value: 800.0 },
-    { label: "Materiais de Conservação", value: 500.0 },
-    { label: "Imobilizado", value: 250.0 },
-    { label: "Despesas Diversas Ordinárias", value: 104.0 },
-  ],
+  categories: [],
+};
+let currentAvailableBalance = {
+  period: "",
+  account: "Conta Corrente",
+  checking: 0,
+  financialTotal: 0,
+  source: "",
+};
+let currentCondoAssessment = {
+  monthlyTotal: 0,
+  source: "",
 };
 
-const currentAvailableBalance = {
-  period: "FEV 2026",
-  account: "Conta Corrente SICOOB Creduni",
-  checking: 39695.08,
-  financialTotal: 46357.79,
-  source: "dados/202603.pdf",
-};
-
-const currentCondoAssessment = {
-  monthlyTotal: 16190.14,
-  source: "Composição da cobrança 2026 nos PDFs mensais",
+const ipcaAdjustment = {
+  label: "IPCA acumulado jan/2024 a mar/2026",
+  rate: 11.401822519460826,
+  source: "Banco Central do Brasil - SGS serie 433",
 };
 
 const idealFractionBands = [
@@ -290,6 +89,7 @@ const yearFilter = document.getElementById("yearFilter");
 const monthFilter = document.getElementById("monthFilter");
 const typeFilter = document.getElementById("typeFilter");
 const expenseCategoryFilter = document.getElementById("expenseCategoryFilter");
+const expenseFloatingBox = document.getElementById("expenseFloatingBox");
 const tabButtons = Array.from(document.querySelectorAll("[data-tab-target]"));
 const tabPanels = Array.from(document.querySelectorAll("[data-tab-panel]"));
 
@@ -297,26 +97,68 @@ const expenseCategorySeries = {
   total: {
     label: "Total de despesas",
     description: "Soma completa das saídas registradas no balancete.",
-  },
-  ordinary: {
-    label: "Despesas ordinárias",
-    description: "Custos recorrentes e operacionais do condomínio.",
-  },
-  extra: {
-    label: "Despesas extraordinárias",
-    description: "Saídas cobertas por taxa extra e intervenções fora da rotina.",
+    prefixes: ["02."],
+    color: "#6d7f83",
   },
   personnel: {
-    label: "Pessoal / funcionários",
+    label: "Despesa com Pessoal",
     description: "Folha, encargos e custos de equipe registrados como despesa com pessoal.",
+    prefixes: ["02.01."],
+    color: "#1b8c88",
   },
-  contracts: {
-    label: "Contratos fixos",
-    description: "Piscina, administração, elevador, síndico e contratos recorrentes.",
+  utilities: {
+    label: "Empresas Públicas e Privadas",
+    description: "Contas de consumo, seguro e prestadores classificados nesta conta.",
+    prefixes: ["02.02."],
+    color: "#4f8f9f",
+  },
+  taxes: {
+    label: "Impostos e Tarifas",
+    description: "Encargos, impostos sobre serviços e despesas bancárias.",
+    prefixes: ["02.03."],
+    color: "#9b7c2f",
+  },
+  fixedAssets: {
+    label: "Imobilizado",
+    description: "Compras e aquisições patrimoniais registradas no balancete.",
+    prefixes: ["02.04."],
+    color: "#816f5f",
+  },
+  conservationServices: {
+    label: "Serviços de Conservação",
+    description: "Serviços de manutenção, reparos e conservação predial.",
+    prefixes: ["02.05."],
+    color: "#6f9f4f",
   },
   materials: {
-    label: "Materiais de conservação",
+    label: "Materiais de Conservação",
     description: "Materiais de limpeza, manutenção, piscina, pintura e insumos afins.",
+    prefixes: ["02.06."],
+    color: "#b58f3a",
+  },
+  contracts: {
+    label: "Contratos Fixos",
+    description: "Piscina, administração, elevador, síndico e contratos recorrentes.",
+    prefixes: ["02.07."],
+    color: "#c79c34",
+  },
+  ordinaryMisc: {
+    label: "Despesas Diversas Ordinárias",
+    description: "Despesas ordinárias diversas registradas no balancete.",
+    prefixes: ["02.08."],
+    color: "#7f8a58",
+  },
+  extraMisc: {
+    label: "Despesas Diversas Extraordinárias",
+    description: "Despesas pagas com taxa extra e intervenções fora da rotina.",
+    prefixes: ["02.09."],
+    color: "#cc5a37",
+  },
+  financial: {
+    label: "Despesas Financeiras",
+    description: "Juros, multas e demais lançamentos financeiros.",
+    prefixes: ["02.10."],
+    color: "#8f5f4c",
   },
 };
 
@@ -340,6 +182,245 @@ function formatPercent(value) {
 
 function sum(items, selector) {
   return items.reduce((total, item) => total + selector(item), 0);
+}
+
+function parseNumber(value) {
+  if (value === null || value === undefined || value === "") return 0;
+  return Number(String(value).replace(/\./g, "").replace(",", ".")) || 0;
+}
+
+function normalizeText(value) {
+  return String(value || "")
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .toLowerCase();
+}
+
+function parseCsv(text) {
+  const lines = text.replace(/^\uFEFF/, "").trim().split(/\r?\n/);
+  const headers = lines.shift().split(";");
+
+  return lines
+    .filter(Boolean)
+    .map((line) => {
+      const values = [];
+      let current = "";
+      let inQuotes = false;
+
+      for (const char of line) {
+        if (char === '"') {
+          inQuotes = !inQuotes;
+        } else if (char === ";" && !inQuotes) {
+          values.push(current);
+          current = "";
+        } else {
+          current += char;
+        }
+      }
+      values.push(current);
+
+      return headers.reduce((row, header, index) => {
+        row[header] = values[index] || "";
+        return row;
+      }, {});
+    });
+}
+
+function monthLabel(month) {
+  return [
+    "Janeiro",
+    "Fevereiro",
+    "Março",
+    "Abril",
+    "Maio",
+    "Junho",
+    "Julho",
+    "Agosto",
+    "Setembro",
+    "Outubro",
+    "Novembro",
+    "Dezembro",
+  ][month - 1];
+}
+
+function buildMonthlyData(rows) {
+  const metricKeys = new Set([
+    "receita_total",
+    "receita_ordinaria",
+    "taxa_condominial",
+    "receita_extra",
+    "despesa_total",
+    "despesa_ordinaria",
+    "despesa_extra",
+    "despesa_categoria_personnel",
+    "despesa_categoria_contracts",
+    "despesa_categoria_materials",
+  ]);
+  const grouped = new Map();
+
+  rows
+    .filter((row) => row.tipo_documento === "resumo_mensal_dashboard")
+    .filter((row) => metricKeys.has(row.metrica))
+    .filter((row) => row.ano && row.mes)
+    .forEach((row) => {
+      const year = Number(row.ano);
+      const month = Number(row.mes);
+      const key = `${year}-${String(month).padStart(2, "0")}`;
+
+      if (!grouped.has(key)) {
+        grouped.set(key, {
+          id: key,
+          year,
+          month,
+          label: monthLabel(month),
+          revenueTotal: 0,
+          revenueOrdinary: 0,
+          revenueExtra: 0,
+          condoFee: 0,
+          expenseTotal: 0,
+          expenseOrdinary: 0,
+          expenseExtra: 0,
+          expenseCategories: {},
+          source: row.arquivo_fonte,
+        });
+      }
+
+      const item = grouped.get(key);
+      const value = parseNumber(row.valor);
+      const fields = {
+        receita_total: "revenueTotal",
+        receita_ordinaria: "revenueOrdinary",
+        taxa_condominial: "condoFee",
+        receita_extra: "revenueExtra",
+        despesa_total: "expenseTotal",
+        despesa_ordinaria: "expenseOrdinary",
+        despesa_extra: "expenseExtra",
+      };
+
+      if (fields[row.metrica]) {
+        item[fields[row.metrica]] = value;
+      }
+      if (row.metrica === "despesa_categoria_personnel") {
+        item.expenseCategories.personnel = value;
+      }
+      if (row.metrica === "despesa_categoria_contracts") {
+        item.expenseCategories.contracts = value;
+      }
+      if (row.metrica === "despesa_categoria_materials") {
+        item.expenseCategories.materials = value;
+      }
+    });
+
+  return [...grouped.values()].sort((left, right) => left.year - right.year || left.month - right.month);
+}
+
+function buildDetailedExpenseData(rows) {
+  const grouped = {};
+  const seen = new Set();
+
+  rows
+    .filter((row) => row.secao === "despesa")
+    .filter((row) => row.metrica === "realizado")
+    .filter((row) => row.ano && row.mes)
+    .filter((row) => (row.codigo_conta.match(/\./g) || []).length >= 2)
+    .forEach((row) => {
+      const year = Number(row.ano);
+      const month = Number(row.mes);
+      const key = `${year}-${String(month).padStart(2, "0")}`;
+      const dedupeKey = `${key}|${row.codigo_conta}|${row.nome_conta}`;
+
+      if (seen.has(dedupeKey)) return;
+      seen.add(dedupeKey);
+
+      if (!grouped[key]) grouped[key] = [];
+      grouped[key].push({
+        code: row.codigo_conta,
+        label: row.nome_conta,
+        value: parseNumber(row.valor),
+      });
+    });
+
+  Object.values(grouped).forEach((entries) => entries.sort((left, right) => left.code.localeCompare(right.code)));
+  return grouped;
+}
+
+function buildBudgetData(rows) {
+  const budgetRows = rows.filter((row) => row.tipo_documento === "previsao_orcamentaria_dashboard");
+  const categories = budgetRows
+    .filter((row) => row.metrica === "previsao_mensal_categoria")
+    .map((row) => ({ label: row.nome_conta, value: parseNumber(row.valor) }));
+
+  function valueByName(pattern, metric = "previsao_mensal") {
+    const row = budgetRows.find(
+      (item) => item.metrica === metric && normalizeText(item.nome_conta).includes(pattern)
+    );
+    return row ? parseNumber(row.valor) : 0;
+  }
+
+  return {
+    monthlyBase: valueByName("total geral despesas"),
+    reserveFund: valueByName("fundo de reserva"),
+    optionalMaintenanceFund: valueByName("fundo de manutencao opcional"),
+    monthlyTotal: valueByName("total despesas mensal"),
+    annualTotal: valueByName("total despesas anual", "previsao_anual"),
+    adjustment: "Ajuste de 21,68%",
+    categories,
+  };
+}
+
+function buildCurrentAvailableBalance(rows) {
+  const checking = rows.find((row) => row.metrica === "saldo_conta_corrente");
+  const financialTotal = rows.find((row) => row.metrica === "saldo_total_financeiro");
+
+  return {
+    period: checking?.periodo_origem || "",
+    account: checking?.nome_conta || "Conta Corrente",
+    checking: parseNumber(checking?.valor),
+    financialTotal: parseNumber(financialTotal?.valor),
+    source: checking?.arquivo_fonte || "",
+  };
+}
+
+function buildCurrentCondoAssessment(rows) {
+  const row = rows.find((item) => item.metrica === "arrecadacao_ordinaria_atual");
+
+  return {
+    monthlyTotal: parseNumber(row?.valor),
+    source: row?.observacao || row?.arquivo_fonte || "",
+  };
+}
+
+function buildDashboardData(rows) {
+  csvRows = rows;
+  monthlyData = buildMonthlyData(rows);
+  detailedExpenseData = buildDetailedExpenseData(rows);
+  budgetData = buildBudgetData(rows);
+  currentAvailableBalance = buildCurrentAvailableBalance(rows);
+  currentCondoAssessment = buildCurrentCondoAssessment(rows);
+}
+
+async function loadDashboardData() {
+  const response = await fetch(DATA_CSV_PATH);
+  if (!response.ok) {
+    throw new Error(`Não foi possível carregar ${DATA_CSV_PATH}`);
+  }
+  buildDashboardData(parseCsv(await response.text()));
+}
+
+function showDataLoadError(error) {
+  document.querySelector("main").insertAdjacentHTML(
+    "afterbegin",
+    `
+      <article class="panel data-load-error">
+        <div class="panel-heading">
+          <p class="eyebrow">Dados</p>
+          <h2>Não foi possível carregar o CSV</h2>
+        </div>
+        <p>Abra o dashboard por um servidor local para permitir a leitura de <code>${DATA_CSV_PATH}</code>.</p>
+        <p class="metric-note">${escapeHtml(error.message)}</p>
+      </article>
+    `
+  );
 }
 
 function selectedRevenue(item, type) {
@@ -386,28 +467,107 @@ function averageCondoFee(data = currentYearData()) {
 }
 
 function expenseCategoryValue(item, categoryKey) {
+  const detailedEntries = detailedExpenseEntries(item, categoryKey);
+
+  if (detailedEntries.length) {
+    return sum(detailedEntries, (entry) => entry.value);
+  }
+
   if (categoryKey === "total") return item.expenseTotal;
-  if (categoryKey === "ordinary") return item.expenseOrdinary;
-  if (categoryKey === "extra") return item.expenseExtra;
-  return item.expenseCategories?.[categoryKey] ?? 0;
+  if (categoryKey === "personnel") return item.expenseCategories?.personnel ?? 0;
+  if (categoryKey === "contracts") return item.expenseCategories?.contracts ?? 0;
+  if (categoryKey === "materials") return item.expenseCategories?.materials ?? 0;
+  if (categoryKey === "extraMisc") return item.expenseExtra;
+  return 0;
 }
 
 function expenseComposition(data) {
-  const personnel = sum(data, (item) => expenseCategoryValue(item, "personnel"));
-  const contracts = sum(data, (item) => expenseCategoryValue(item, "contracts"));
-  const materials = sum(data, (item) => expenseCategoryValue(item, "materials"));
-  const extra = sum(data, (item) => expenseCategoryValue(item, "extra"));
+  const categories = Object.entries(expenseCategorySeries).filter(([key]) => key !== "total");
+  const mappedItems = categories.map(([key, category]) => ({
+    label: category.label,
+    value: sum(data, (item) => expenseCategoryValue(item, key)),
+    color: category.color,
+  }));
   const total = sum(data, (item) => item.expenseTotal);
-  const mappedTotal = personnel + contracts + materials + extra;
+  const mappedTotal = sum(mappedItems, (item) => item.value);
   const other = Math.max(total - mappedTotal, 0);
 
   return [
-    { label: "Pessoal / funcionários", value: personnel, color: "#1b8c88" },
-    { label: "Contratos fixos", value: contracts, color: "#c79c34" },
-    { label: "Materiais de conservação", value: materials, color: "#6f9f4f" },
-    { label: "Extraordinárias", value: extra, color: "#cc5a37" },
+    ...mappedItems,
     { label: "Outras despesas", value: other, color: "#6d7f83" },
   ].filter((item) => item.value > 0);
+}
+
+function visibleExpenseEntries(entries) {
+  const visible = entries.filter((entry) => entry.value > 0);
+  return visible.length ? visible : entries.slice(0, 1);
+}
+
+function detailedExpenseKey(item) {
+  return `${item.year}-${String(item.month).padStart(2, "0")}`;
+}
+
+function detailedExpenseMatchesCategory(entry, categoryKey) {
+  const category = expenseCategorySeries[categoryKey] || expenseCategorySeries.total;
+  return category.prefixes.some((prefix) => entry.code.startsWith(prefix));
+}
+
+function detailedExpenseEntries(item, categoryKey) {
+  const details = detailedExpenseData[detailedExpenseKey(item)] || [];
+  return details
+    .filter((entry) => detailedExpenseMatchesCategory(entry, categoryKey))
+    .map((entry) => ({
+      label: entry.label,
+      value: entry.value,
+      code: entry.code,
+    }));
+}
+
+function fallbackExpenseEntries(item, categoryKey) {
+  const categories = item.expenseCategories || {};
+  const personnel = categories.personnel || 0;
+  const contracts = categories.contracts || 0;
+  const materials = categories.materials || 0;
+  const extra = item.expenseExtra || 0;
+  const mappedOrdinary = personnel + contracts + materials;
+  const otherTotal = Math.max(item.expenseTotal - mappedOrdinary - extra, 0);
+
+  if (categoryKey === "total") {
+    return visibleExpenseEntries([
+      { label: expenseCategorySeries.personnel.label, value: personnel },
+      { label: expenseCategorySeries.contracts.label, value: contracts },
+      { label: expenseCategorySeries.materials.label, value: materials },
+      { label: expenseCategorySeries.extraMisc.label, value: extra },
+      { label: "Outras despesas", value: otherTotal },
+    ]);
+  }
+
+  if (categoryKey === "extraMisc") {
+    return [{ label: expenseCategorySeries.extraMisc.label, value: extra }];
+  }
+
+  return [
+    {
+      label: expenseCategorySeries[categoryKey].label,
+      value: expenseCategoryValue(item, categoryKey),
+    },
+  ];
+}
+
+function expenseDetailBreakdown(item, categoryKey) {
+  const detailedEntries = detailedExpenseEntries(item, categoryKey);
+
+  if (detailedEntries.length) {
+    return {
+      entries: detailedEntries,
+      note: "Subcontas extraídas do balancete mensal.",
+    };
+  }
+
+  return {
+    entries: fallbackExpenseEntries(item, categoryKey),
+    note: "Subcontas não disponíveis para este mês; exibindo o valor agregado do filtro.",
+  };
 }
 
 function escapeAttribute(value) {
@@ -416,6 +576,15 @@ function escapeAttribute(value) {
     .replace(/"/g, "&quot;")
     .replace(/</g, "&lt;")
     .replace(/>/g, "&gt;");
+}
+
+function escapeHtml(value) {
+  return String(value)
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;")
+    .replace(/"/g, "&quot;")
+    .replace(/'/g, "&#39;");
 }
 
 function pointOnCircle(center, radius, angleInDegrees) {
@@ -488,6 +657,74 @@ function bindMonthlyBarTooltip(container) {
 
     bar.addEventListener("blur", () => {
       tooltip.hidden = true;
+    });
+  });
+}
+
+function hideExpenseFloatingBox() {
+  if (expenseFloatingBox) {
+    expenseFloatingBox.hidden = true;
+  }
+}
+
+function positionExpenseFloatingBox(row, event) {
+  expenseFloatingBox.style.removeProperty("left");
+  expenseFloatingBox.style.removeProperty("top");
+  expenseFloatingBox.hidden = false;
+}
+
+function showExpenseFloatingBox(row, item, categoryKey, category, event) {
+  if (!expenseFloatingBox) return;
+
+  const total = expenseCategoryValue(item, categoryKey);
+  const breakdown = expenseDetailBreakdown(item, categoryKey);
+  const entries = breakdown.entries;
+  const entriesTotal = sum(entries, (entry) => entry.value);
+
+  expenseFloatingBox.innerHTML = `
+    <button class="expense-floating-close" type="button" data-close-expense-box>Fechar</button>
+    <p class="eyebrow">Detalhes do mês</p>
+    <h3>${escapeHtml(item.label)} ${item.year}</h3>
+    <p class="expense-floating-subtitle">Filtro aplicado: ${escapeHtml(category.label)}</p>
+    <div class="expense-floating-total">
+      <span>Total do filtro</span>
+      <strong>${formatCurrency(total)}</strong>
+    </div>
+    <p class="expense-floating-source">${escapeHtml(breakdown.note)}</p>
+    <div class="expense-floating-list">
+      ${entries
+        .map((entry) => {
+          const share = entriesTotal === 0 ? 0 : (entry.value / entriesTotal) * 100;
+          return `
+            <div class="expense-floating-row">
+              <span>${escapeHtml(entry.label)}</span>
+              <strong>${formatCurrency(entry.value)}</strong>
+              <small>${entry.code ? `${escapeHtml(entry.code)} · ` : ""}${share.toFixed(0)}% do detalhamento</small>
+            </div>
+          `;
+        })
+        .join("")}
+    </div>
+  `;
+
+  expenseFloatingBox
+    .querySelector("[data-close-expense-box]")
+    .addEventListener("click", hideExpenseFloatingBox);
+  positionExpenseFloatingBox(row, event);
+}
+
+function bindExpenseDetailRows(list, data, categoryKey, category) {
+  list.querySelectorAll(".expense-detail-row").forEach((row, index) => {
+    row.addEventListener("click", (event) => {
+      event.stopPropagation();
+      showExpenseFloatingBox(row, data[index], categoryKey, category, event);
+    });
+
+    row.addEventListener("keydown", (event) => {
+      if (event.key !== "Enter" && event.key !== " ") return;
+      event.preventDefault();
+      event.stopPropagation();
+      showExpenseFloatingBox(row, data[index], categoryKey, category, event);
     });
   });
 }
@@ -752,13 +989,20 @@ function renderExpenseDetail(data) {
   `;
   bindPieTooltip(compositionTarget);
 
-  document.getElementById("expenseDetailList").innerHTML = data
+  const expenseList = document.getElementById("expenseDetailList");
+  expenseList.innerHTML = data
     .map((item, index) => {
       const categoryValue = scopedSeries[index].value;
       const width = (categoryValue / maxExpense) * 100;
       const shareOfMonth = item.expenseTotal === 0 ? 0 : (categoryValue / item.expenseTotal) * 100;
       return `
-        <div class="expense-detail-row">
+        <div
+          class="expense-detail-row"
+          role="button"
+          tabindex="0"
+          data-hover-message="Clique para mais detalhes"
+          title="Clique para mais detalhes"
+        >
           <span class="chart-label">${item.label}</span>
           <div class="expense-stack">
             <div class="expense-track">
@@ -773,6 +1017,7 @@ function renderExpenseDetail(data) {
       `;
     })
     .join("");
+  bindExpenseDetailRows(expenseList, data, categoryKey, category);
 }
 
 function renderBudget() {
@@ -845,18 +1090,29 @@ function renderAdjustmentImpact() {
         <span>${formatPercent(adjustmentRate)}</span>
         <p>Aplicado linearmente sobre a taxa condominial atual.</p>
       </article>
+      <article class="adjustment-card ipca-card">
+        <strong>IPCA do período</strong>
+        <span>${formatPercent(ipcaAdjustment.rate)}</span>
+        <p>${ipcaAdjustment.label}.</p>
+      </article>
     </div>
 
     <div class="table-wrap">
       <table>
         <thead>
           <tr>
-            <th>Tipo</th>
-            <th>Unidades</th>
-            <th>Fração ideal</th>
-            <th>Taxa atual</th>
-            <th>Após ajuste</th>
-            <th>Diferença</th>
+            <th rowspan="2">Tipo</th>
+            <th rowspan="2">Unidades</th>
+            <th rowspan="2">Fração ideal</th>
+            <th rowspan="2">Taxa atual</th>
+            <th class="forecast-group" colspan="2">Reajuste pela previsão</th>
+            <th class="ipca-group" colspan="2">Reajuste pelo IPCA</th>
+          </tr>
+          <tr>
+            <th class="forecast-group">Taxa</th>
+            <th class="forecast-group">Diferença</th>
+            <th class="ipca-group">Taxa</th>
+            <th class="ipca-group">Diferença</th>
           </tr>
         </thead>
         <tbody>
@@ -868,15 +1124,20 @@ function renderAdjustmentImpact() {
             )
             .map((band) => {
               const currentFee = currentCondoAssessment.monthlyTotal * band.fraction;
+              const ipcaAdjustedFee = currentFee * (1 + ipcaAdjustment.rate / 100);
               const adjustedFee = budgetData.monthlyTotal * band.fraction;
+              const forecastDifference = adjustedFee - currentFee;
+              const ipcaDifference = ipcaAdjustedFee - currentFee;
               return `
                 <tr>
                   <td>${band.type}</td>
                   <td>${band.units}</td>
                   <td>${band.fraction.toFixed(6).replace(".", ",")}</td>
                   <td>${formatCurrency(currentFee)}</td>
-                  <td>${formatCurrency(adjustedFee)}</td>
-                  <td class="status-negative">+${formatCurrency(adjustedFee - currentFee)}</td>
+                  <td class="forecast-group">${formatCurrency(adjustedFee)}</td>
+                  <td class="forecast-group status-negative">+${formatCurrency(forecastDifference)}</td>
+                  <td class="ipca-group">${formatCurrency(ipcaAdjustedFee)}</td>
+                  <td class="ipca-group status-negative">+${formatCurrency(ipcaDifference)}</td>
                 </tr>
               `;
             })
@@ -887,7 +1148,11 @@ function renderAdjustmentImpact() {
     <p class="adjustment-note">
       A soma das frações consideradas é ${totalFractions
         .toFixed(6)
-        .replace(".", ",")}. A linha duplicada do Tipo E no documento de especificação foi considerada uma única vez para fechar 100% das frações.
+        .replace(".", ",")}. O grupo "Reajuste pela previsão" distribui o total mensal previsto de ${formatCurrency(
+    budgetData.monthlyTotal
+  )} pela fração ideal. O grupo "Reajuste pelo IPCA" usa ${ipcaAdjustment.label}, equivalente a ${formatPercent(
+    ipcaAdjustment.rate
+  )}, conforme ${ipcaAdjustment.source}. A linha duplicada do Tipo E no documento de especificação foi considerada uma única vez para fechar 100% das frações.
     </p>
   `;
 }
@@ -1101,6 +1366,10 @@ function renderTable(data, type) {
 
 function populateYearFilter() {
   const years = availableYears();
+  if (!years.length) {
+    yearFilter.innerHTML = "";
+    return;
+  }
   yearFilter.innerHTML = years
     .map((year) => `<option value="${year}">${year}</option>`)
     .join("");
@@ -1108,6 +1377,10 @@ function populateYearFilter() {
 }
 
 function populateMonthFilter() {
+  if (!yearFilter.value) {
+    monthFilter.innerHTML = '<option value="all">Ano completo</option>';
+    return;
+  }
   monthFilter.innerHTML =
     '<option value="all">Ano completo</option>' +
     currentYearData()
@@ -1120,6 +1393,7 @@ function render() {
   const data = scopedData();
   const type = currentType();
 
+  hideExpenseFloatingBox();
   renderFilterSummary(data, type);
   renderMetrics(data, type);
   renderExpenseDetail(data);
@@ -1145,8 +1419,6 @@ function activateTab(target) {
   });
 }
 
-populateYearFilter();
-populateMonthFilter();
 yearFilter.addEventListener("change", () => {
   populateMonthFilter();
   render();
@@ -1157,4 +1429,35 @@ expenseCategoryFilter.addEventListener("change", render);
 tabButtons.forEach((button) => {
   button.addEventListener("click", () => activateTab(button.dataset.tabTarget));
 });
-render();
+if (expenseFloatingBox) {
+  expenseFloatingBox.addEventListener("click", (event) => event.stopPropagation());
+  document.addEventListener("click", (event) => {
+    if (
+      expenseFloatingBox.hidden ||
+      expenseFloatingBox.contains(event.target) ||
+      event.target.closest(".expense-detail-row")
+    ) {
+      return;
+    }
+    hideExpenseFloatingBox();
+  });
+  document.addEventListener("keydown", (event) => {
+    if (event.key === "Escape") {
+      hideExpenseFloatingBox();
+    }
+  });
+}
+
+async function initDashboard() {
+  try {
+    await loadDashboardData();
+    populateYearFilter();
+    populateMonthFilter();
+    render();
+  } catch (error) {
+    console.error(error);
+    showDataLoadError(error);
+  }
+}
+
+initDashboard();

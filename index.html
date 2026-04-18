@@ -132,16 +132,24 @@
                     <div>
                       <p class="eyebrow">Despesas</p>
                       <h2 id="expenseDetailTitle">Detalhamento das despesas</h2>
+                      <p class="panel-action-hint">
+                        Clique em qualquer mês da lista para abrir o detalhamento da despesa filtrada.
+                      </p>
                     </div>
                     <label class="inline-filter">
                       Tipo de despesa
                       <select id="expenseCategoryFilter">
                         <option value="total">Total de despesas</option>
-                        <option value="ordinary">Ordinárias</option>
-                        <option value="extra">Extraordinárias</option>
-                        <option value="personnel">Pessoal / funcionários</option>
-                        <option value="contracts">Contratos fixos</option>
-                        <option value="materials">Materiais de conservação</option>
+                        <option value="personnel">Despesa com Pessoal</option>
+                        <option value="utilities">Empresas Públicas e Privadas</option>
+                        <option value="taxes">Impostos e Tarifas</option>
+                        <option value="fixedAssets">Imobilizado</option>
+                        <option value="conservationServices">Serviços de Conservação</option>
+                        <option value="materials">Materiais de Conservação</option>
+                        <option value="contracts">Contratos Fixos</option>
+                        <option value="ordinaryMisc">Despesas Diversas Ordinárias</option>
+                        <option value="extraMisc">Despesas Diversas Extraordinárias</option>
+                        <option value="financial">Despesas Financeiras</option>
                       </select>
                     </label>
                   </div>
@@ -228,6 +236,14 @@
       </footer>
     </div>
 
+    <div
+      class="expense-floating-box"
+      id="expenseFloatingBox"
+      role="dialog"
+      aria-modal="false"
+      aria-label="Detalhes das despesas do mês"
+      hidden
+    ></div>
     <script src="./app.js"></script>
   </body>
 </html>
