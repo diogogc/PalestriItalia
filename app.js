@@ -69,12 +69,6 @@ const idealFractionBands = [
   },
 ];
 
-const typeLabels = {
-  all: "todas as movimentações",
-  ordinary: "somente rotinas ordinárias",
-  extra: "somente movimentos de taxa extra",
-};
-
 const currency = new Intl.NumberFormat("pt-BR", {
   style: "currency",
   currency: "BRL",
@@ -87,7 +81,6 @@ const percent = new Intl.NumberFormat("pt-BR", {
 
 const yearFilter = document.getElementById("yearFilter");
 const monthFilter = document.getElementById("monthFilter");
-const typeFilter = document.getElementById("typeFilter");
 const expenseCategoryFilter = document.getElementById("expenseCategoryFilter");
 const expenseFloatingBox = document.getElementById("expenseFloatingBox");
 const tabButtons = Array.from(document.querySelectorAll("[data-tab-target]"));
@@ -448,14 +441,14 @@ function currentYearData() {
 }
 
 function scopedData() {
+  return currentYearData();
+}
+
+function expenseScopedData() {
   const monthValue = monthFilter.value;
   const data = currentYearData();
   if (monthValue === "all") return data;
   return data.filter((item) => String(item.month) === monthValue);
-}
-
-function currentType() {
-  return typeLabels[typeFilter.value] ? typeFilter.value : "all";
 }
 
 function averageOrdinaryRevenue(data = currentYearData()) {
@@ -481,14 +474,19 @@ function expenseCategoryValue(item, categoryKey) {
   return 0;
 }
 
-function expenseComposition(data) {
-  const categories = Object.entries(expenseCategorySeries).filter(([key]) => key !== "total");
+function expenseComposition(data, type = "all") {
+  const categories = Object.entries(expenseCategorySeries).filter(([key]) => {
+    if (key === "total") return false;
+    if (type === "ordinary") return key !== "extraMisc";
+    if (type === "extra") return key === "extraMisc";
+    return true;
+  });
   const mappedItems = categories.map(([key, category]) => ({
     label: category.label,
     value: sum(data, (item) => expenseCategoryValue(item, key)),
     color: category.color,
   }));
-  const total = sum(data, (item) => item.expenseTotal);
+  const total = sum(data, (item) => selectedExpense(item, type));
   const mappedTotal = sum(mappedItems, (item) => item.value);
   const other = Math.max(total - mappedTotal, 0);
 
@@ -508,6 +506,7 @@ function detailedExpenseKey(item) {
 }
 
 function detailedExpenseMatchesCategory(entry, categoryKey) {
+  if (categoryKey === "ordinary") return !entry.code.startsWith("02.09.");
   const category = expenseCategorySeries[categoryKey] || expenseCategorySeries.total;
   return category.prefixes.some((prefix) => entry.code.startsWith(prefix));
 }
@@ -730,17 +729,14 @@ function bindExpenseDetailRows(list, data, categoryKey, category) {
 }
 
 function renderFilterSummary(data, type) {
-  const totalRevenue = sum(data, (item) => selectedRevenue(item, type));
-  const totalExpense = sum(data, (item) => selectedExpense(item, type));
+  const totalRevenue = sum(data, (item) => item.revenueTotal);
+  const totalExpense = sum(data, (item) => item.expenseTotal);
   const balance = totalRevenue - totalExpense;
-  const periodLabel =
-    data.length === 1 ? `${data[0].label} ${data[0].year}` : `${currentYear()} (${data.length} meses)`;
+  const periodLabel = `${currentYear()} (${data.length} meses)`;
 
   document.getElementById(
     "filterSummary"
-  ).textContent = `${periodLabel} | ${typeLabels[type]} | saldo ${formatSignedCurrency(
-    balance
-  )}`;
+  ).textContent = `${periodLabel} | saldo ${formatSignedCurrency(balance)}`;
 }
 
 function renderMetrics(data, type) {
@@ -1390,18 +1386,18 @@ function populateMonthFilter() {
 }
 
 function render() {
-  const data = scopedData();
-  const type = currentType();
+  const yearData = currentYearData();
+  const expenseData = expenseScopedData();
 
   hideExpenseFloatingBox();
-  renderFilterSummary(data, type);
-  renderMetrics(data, type);
-  renderExpenseDetail(data);
+  renderFilterSummary(yearData);
+  renderMetrics(yearData, "all");
+  renderExpenseDetail(expenseData);
   renderBudget();
-  renderInsights(data);
-  renderTypeMix(data);
-  renderMonthlyBarChart(data, type);
-  renderTable(data, type);
+  renderInsights(yearData);
+  renderTypeMix(yearData);
+  renderMonthlyBarChart(yearData, "all");
+  renderTable(yearData, "all");
   renderAdjustmentImpact();
 }
 
@@ -1423,7 +1419,6 @@ yearFilter.addEventListener("change", () => {
   populateMonthFilter();
   render();
 });
-typeFilter.addEventListener("change", render);
 monthFilter.addEventListener("change", render);
 expenseCategoryFilter.addEventListener("change", render);
 tabButtons.forEach((button) => {

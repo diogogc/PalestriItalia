@@ -26,26 +26,10 @@
       </header>
 
       <main class="dashboard">
-        <section class="control-band" aria-label="Filtros do dashboard">
+        <section class="control-band control-band-year" aria-label="Filtros do dashboard">
           <label>
             Ano
             <select id="yearFilter"></select>
-          </label>
-
-          <label>
-            Tipo
-            <select id="typeFilter">
-              <option value="all">Todas as movimentações</option>
-              <option value="ordinary">Somente ordinárias</option>
-              <option value="extra">Somente extras</option>
-            </select>
-          </label>
-
-          <label>
-            Período
-            <select id="monthFilter">
-              <option value="all">Ano completo</option>
-            </select>
           </label>
 
           <div class="control-copy" id="filterSummary" aria-live="polite"></div>
@@ -136,22 +120,30 @@
                         Clique em qualquer mês da lista para abrir o detalhamento da despesa filtrada.
                       </p>
                     </div>
-                    <label class="inline-filter">
-                      Tipo de despesa
-                      <select id="expenseCategoryFilter">
-                        <option value="total">Total de despesas</option>
-                        <option value="personnel">Despesa com Pessoal</option>
-                        <option value="utilities">Empresas Públicas e Privadas</option>
-                        <option value="taxes">Impostos e Tarifas</option>
-                        <option value="fixedAssets">Imobilizado</option>
-                        <option value="conservationServices">Serviços de Conservação</option>
-                        <option value="materials">Materiais de Conservação</option>
-                        <option value="contracts">Contratos Fixos</option>
-                        <option value="ordinaryMisc">Despesas Diversas Ordinárias</option>
-                        <option value="extraMisc">Despesas Diversas Extraordinárias</option>
-                        <option value="financial">Despesas Financeiras</option>
-                      </select>
-                    </label>
+                    <div class="expense-filters" aria-label="Filtros do detalhamento das despesas">
+                      <label class="inline-filter">
+                        Período
+                        <select id="monthFilter">
+                          <option value="all">Ano completo</option>
+                        </select>
+                      </label>
+                      <label class="inline-filter">
+                        Tipo de despesa
+                        <select id="expenseCategoryFilter">
+                          <option value="total">Total de despesas</option>
+                          <option value="personnel">Despesa com Pessoal</option>
+                          <option value="utilities">Empresas Públicas e Privadas</option>
+                          <option value="taxes">Impostos e Tarifas</option>
+                          <option value="fixedAssets">Imobilizado</option>
+                          <option value="conservationServices">Serviços de Conservação</option>
+                          <option value="materials">Materiais de Conservação</option>
+                          <option value="contracts">Contratos Fixos</option>
+                          <option value="ordinaryMisc">Despesas Diversas Ordinárias</option>
+                          <option value="extraMisc">Despesas Diversas Extraordinárias</option>
+                          <option value="financial">Despesas Financeiras</option>
+                        </select>
+                      </label>
+                    </div>
                   </div>
                   <div id="expenseDetailSummary" class="expense-summary"></div>
                   <div class="expense-detail-layout">

@@ -140,6 +140,10 @@ h3 {
   border-radius: var(--radius);
 }
 
+.control-band-year {
+  grid-template-columns: minmax(160px, 220px) minmax(240px, 1fr);
+}
+
 .control-band label {
   display: grid;
   gap: 8px;
@@ -291,7 +295,7 @@ select {
 }
 
 .panel-heading-split {
-  grid-template-columns: minmax(0, 1fr) minmax(220px, 260px);
+  grid-template-columns: minmax(0, 1fr) minmax(420px, 0.9fr);
   align-items: end;
 }
 
@@ -459,6 +463,12 @@ select {
   color: var(--muted);
   font-size: 0.9rem;
   font-weight: 700;
+}
+
+.expense-filters {
+  display: grid;
+  grid-template-columns: minmax(150px, 0.7fr) minmax(220px, 1.3fr);
+  gap: 12px;
 }
 
 .flow-chart,
@@ -1070,6 +1080,10 @@ code {
     border-left: 0;
     border-top: 1px dashed var(--line);
     padding-top: 18px;
+  }
+
+  .expense-filters {
+    grid-template-columns: 1fr;
   }
 
   .metrics-grid,
