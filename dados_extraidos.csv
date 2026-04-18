@@ -1,0 +1,434 @@
+﻿arquivo_fonte;tipo_documento;periodo_origem;ano;mes;secao;codigo_conta;nome_conta;metrica;valor;percentual;observacao
+dados/202512.pdf;balancete_mensal_pdf;Novembro 2025;2025;11;receita;01;RECEITA;realizado;27979,92;100,00;
+dados/202512.pdf;balancete_mensal_pdf;Novembro 2025;2025;11;receita;01.01;Receita Operacional;realizado;28122,31;100,51;
+dados/202512.pdf;balancete_mensal_pdf;Novembro 2025;2025;11;receita;01.01.01;Taxa Condominial;realizado;14084,62;50,34;
+dados/202512.pdf;balancete_mensal_pdf;Novembro 2025;2025;11;receita;01.01.02;Taxa Extra;realizado;14037,69;50,17;
+dados/202512.pdf;balancete_mensal_pdf;Novembro 2025;2025;11;receita;01.04;Receita por Obrigação Individual;realizado;70,67;0,25;
+dados/202512.pdf;balancete_mensal_pdf;Novembro 2025;2025;11;receita;01.04.05;Multa por Infração;realizado;70,67;0,25;
+dados/202512.pdf;balancete_mensal_pdf;Novembro 2025;2025;11;receita;01.07;Juros, Multa, Correções Monetárias;realizado;79,02;0,28;
+dados/202512.pdf;balancete_mensal_pdf;Novembro 2025;2025;11;receita;01.07.01;Multa;realizado;36,46;0,13;
+dados/202512.pdf;balancete_mensal_pdf;Novembro 2025;2025;11;receita;01.07.02;Juros;realizado;42,56;0,15;
+dados/202512.pdf;balancete_mensal_pdf;Novembro 2025;2025;11;receita;01.08;Rendimentos;realizado;89,17;0,32;
+dados/202512.pdf;balancete_mensal_pdf;Novembro 2025;2025;11;receita;01.08.01;Rendimento de Poupança;realizado;89,17;0,32;
+dados/202512.pdf;balancete_mensal_pdf;Novembro 2025;2025;11;receita;01.09;Outras Receitas Operacionais;realizado;-381,25;-1,36;
+dados/202512.pdf;balancete_mensal_pdf;Novembro 2025;2025;11;receita;01.09.09;Desconto;realizado;-381,25;-1,36;
+dados/202512.pdf;balancete_mensal_pdf;Novembro 2025;2025;11;despesa;02;DESPESA;realizado;37933,13;100,00;
+dados/202512.pdf;balancete_mensal_pdf;Novembro 2025;2025;11;despesa;02.01;Despesa com Pessoal;realizado;3783,48;9,97;
+dados/202512.pdf;balancete_mensal_pdf;Novembro 2025;2025;11;despesa;02.01.01;Salário de Funcionários;realizado;592,14;1,56;
+dados/202512.pdf;balancete_mensal_pdf;Novembro 2025;2025;11;despesa;02.01.02;INSS;realizado;504,91;1,33;
+dados/202512.pdf;balancete_mensal_pdf;Novembro 2025;2025;11;despesa;02.01.03;PIS;realizado;15,29;0,04;
+dados/202512.pdf;balancete_mensal_pdf;Novembro 2025;2025;11;despesa;02.01.05;Vale Transporte;realizado;416,00;1,10;
+dados/202512.pdf;balancete_mensal_pdf;Novembro 2025;2025;11;despesa;02.01.06;FGTS;realizado;122,36;0,32;
+dados/202512.pdf;balancete_mensal_pdf;Novembro 2025;2025;11;despesa;02.01.11;Pagamento de 13º salário;realizado;764,81;2,02;
+dados/202512.pdf;balancete_mensal_pdf;Novembro 2025;2025;11;despesa;02.01.14;Serviços Prestados - Pessoal;realizado;949,13;2,50;
+dados/202512.pdf;balancete_mensal_pdf;Novembro 2025;2025;11;despesa;02.01.16;Pensão;realizado;368,84;0,97;
+dados/202512.pdf;balancete_mensal_pdf;Novembro 2025;2025;11;despesa;02.01.23;Benefício Social;realizado;30,00;0,08;
+dados/202512.pdf;balancete_mensal_pdf;Novembro 2025;2025;11;despesa;02.01.32;Plano Odontológico;realizado;20,00;0,05;
+dados/202512.pdf;balancete_mensal_pdf;Novembro 2025;2025;11;despesa;02.02;Empresas Públicas e Privadas;realizado;3223,49;8,50;
+dados/202512.pdf;balancete_mensal_pdf;Novembro 2025;2025;11;despesa;02.02.01;Consumo de Energia;realizado;696,09;1,84;
+dados/202512.pdf;balancete_mensal_pdf;Novembro 2025;2025;11;despesa;02.02.02;Consumo de Água;realizado;2327,30;6,14;
+dados/202512.pdf;balancete_mensal_pdf;Novembro 2025;2025;11;despesa;02.02.04;Seguro;realizado;200,10;0,53;
+dados/202512.pdf;balancete_mensal_pdf;Novembro 2025;2025;11;despesa;02.03;Impostos e Tarifas;realizado;2206,72;5,82;
+dados/202512.pdf;balancete_mensal_pdf;Novembro 2025;2025;11;despesa;02.03.01;INSS sobre Serviços Prestados;realizado;1429,66;3,77;
+dados/202512.pdf;balancete_mensal_pdf;Novembro 2025;2025;11;despesa;02.03.03;PIS, COFINS e CSLL de Serviços Prestados;realizado;22,82;0,06;
+dados/202512.pdf;balancete_mensal_pdf;Novembro 2025;2025;11;despesa;02.03.04;ISS de Serviços Prestados;realizado;649,84;1,71;
+dados/202512.pdf;balancete_mensal_pdf;Novembro 2025;2025;11;despesa;02.03.05;Despesas Bancárias;realizado;104,40;0,28;
+dados/202512.pdf;balancete_mensal_pdf;Novembro 2025;2025;11;despesa;02.04;Imobilizado;realizado;1177,15;3,10;
+dados/202512.pdf;balancete_mensal_pdf;Novembro 2025;2025;11;despesa;02.04.05;Compra de Eletrodomésticos;realizado;999,00;2,63;
+dados/202512.pdf;balancete_mensal_pdf;Novembro 2025;2025;11;despesa;02.04.37;Compra de Material de Combate a Incêndio;realizado;178,15;0,47;
+dados/202512.pdf;balancete_mensal_pdf;Novembro 2025;2025;11;despesa;02.05;Serviços de Conservação;realizado;800,00;2,11;
+dados/202512.pdf;balancete_mensal_pdf;Novembro 2025;2025;11;despesa;02.05.09;Caminhão Pipa;realizado;800,00;2,11;
+dados/202512.pdf;balancete_mensal_pdf;Novembro 2025;2025;11;despesa;02.06;Materiais de Conservação;realizado;555,60;1,46;
+dados/202512.pdf;balancete_mensal_pdf;Novembro 2025;2025;11;despesa;02.06.04;Material de Limpeza;realizado;265,60;0,70;
+dados/202512.pdf;balancete_mensal_pdf;Novembro 2025;2025;11;despesa;02.06.05;Material de Piscina;realizado;290,00;0,76;
+dados/202512.pdf;balancete_mensal_pdf;Novembro 2025;2025;11;despesa;02.07;Contratos Fixos;realizado;6983,22;18,41;
+dados/202512.pdf;balancete_mensal_pdf;Novembro 2025;2025;11;despesa;02.07.03;Manutenção de Piscina;realizado;250,00;0,66;
+dados/202512.pdf;balancete_mensal_pdf;Novembro 2025;2025;11;despesa;02.07.06;Taxa de Administração Contábil;realizado;1030,00;2,72;
+dados/202512.pdf;balancete_mensal_pdf;Novembro 2025;2025;11;despesa;02.07.14;Segurança Eletrônica;realizado;1240,62;3,27;
+dados/202512.pdf;balancete_mensal_pdf;Novembro 2025;2025;11;despesa;02.07.17;Manutenção de Elevador;realizado;467,84;1,23;
+dados/202512.pdf;balancete_mensal_pdf;Novembro 2025;2025;11;despesa;02.07.23;Honorários do Síndico;realizado;1100,00;2,90;
+dados/202512.pdf;balancete_mensal_pdf;Novembro 2025;2025;11;despesa;02.07.40;Locação de Equipamento de Segurança;realizado;2894,76;7,63;
+dados/202512.pdf;balancete_mensal_pdf;Novembro 2025;2025;11;despesa;02.08;Despesas Diversas Ordinárias;realizado;72,99;0,19;
+dados/202512.pdf;balancete_mensal_pdf;Novembro 2025;2025;11;despesa;02.08.03;Bloquete, Xerox, Papelaria e Correios;realizado;19,00;0,05;
+dados/202512.pdf;balancete_mensal_pdf;Novembro 2025;2025;11;despesa;02.08.16;Frete;realizado;53,99;0,14;
+dados/202512.pdf;balancete_mensal_pdf;Novembro 2025;2025;11;despesa;02.09;Despesas Diversas Extraordinárias;realizado;19130,48;50,43;
+dados/202512.pdf;balancete_mensal_pdf;Novembro 2025;2025;11;despesa;02.09.01;Despesas Pagas com Taxa Extra;realizado;19130,48;50,43;
+dados/202512.pdf;balancete_mensal_pdf;Novembro 2025;2025;11;resultado;;RESULTADO DO MÊS;realizado;-9953,21;-35,57;
+dados/202601.pdf;balancete_mensal_pdf;Dezembro 2025;2025;12;receita;01;RECEITA;realizado;32447,62;100,00;
+dados/202601.pdf;balancete_mensal_pdf;Dezembro 2025;2025;12;receita;01.01;Receita Operacional;realizado;32572,54;100,38;
+dados/202601.pdf;balancete_mensal_pdf;Dezembro 2025;2025;12;receita;01.01.01;Taxa Condominial;realizado;16304,05;50,25;
+dados/202601.pdf;balancete_mensal_pdf;Dezembro 2025;2025;12;receita;01.01.02;Taxa Extra;realizado;16268,49;50,14;
+dados/202601.pdf;balancete_mensal_pdf;Dezembro 2025;2025;12;receita;01.07;Juros, Multa, Correções Monetárias;realizado;169,85;0,52;
+dados/202601.pdf;balancete_mensal_pdf;Dezembro 2025;2025;12;receita;01.07.01;Multa;realizado;27,56;0,08;
+dados/202601.pdf;balancete_mensal_pdf;Dezembro 2025;2025;12;receita;01.07.02;Juros;realizado;142,29;0,44;
+dados/202601.pdf;balancete_mensal_pdf;Dezembro 2025;2025;12;receita;01.08;Rendimentos;realizado;86,48;0,27;
+dados/202601.pdf;balancete_mensal_pdf;Dezembro 2025;2025;12;receita;01.08.01;Rendimento de Poupança;realizado;1,81;0,01;
+dados/202601.pdf;balancete_mensal_pdf;Dezembro 2025;2025;12;receita;01.08.04;Distribuição de Sobras;realizado;84,67;0,26;
+dados/202601.pdf;balancete_mensal_pdf;Dezembro 2025;2025;12;receita;01.09;Outras Receitas Operacionais;realizado;-381,25;-1,17;
+dados/202601.pdf;balancete_mensal_pdf;Dezembro 2025;2025;12;receita;01.09.09;Desconto;realizado;-381,25;-1,17;
+dados/202601.pdf;balancete_mensal_pdf;Dezembro 2025;2025;12;despesa;02;DESPESA;realizado;38070,51;100,00;
+dados/202601.pdf;balancete_mensal_pdf;Dezembro 2025;2025;12;despesa;02.01;Despesa com Pessoal;realizado;4276,02;11,23;
+dados/202601.pdf;balancete_mensal_pdf;Dezembro 2025;2025;12;despesa;02.01.01;Salário de Funcionários;realizado;1469,35;3,86;
+dados/202601.pdf;balancete_mensal_pdf;Dezembro 2025;2025;12;despesa;02.01.02;INSS;realizado;594,88;1,56;
+dados/202601.pdf;balancete_mensal_pdf;Dezembro 2025;2025;12;despesa;02.01.03;PIS;realizado;17,90;0,05;
+dados/202601.pdf;balancete_mensal_pdf;Dezembro 2025;2025;12;despesa;02.01.05;Vale Transporte;realizado;270,40;0,71;
+dados/202601.pdf;balancete_mensal_pdf;Dezembro 2025;2025;12;despesa;02.01.06;FGTS;realizado;204,40;0,54;
+dados/202601.pdf;balancete_mensal_pdf;Dezembro 2025;2025;12;despesa;02.01.11;Pagamento de 13º salário;realizado;281,08;0,74;
+dados/202601.pdf;balancete_mensal_pdf;Dezembro 2025;2025;12;despesa;02.01.12;INSS sobre 13º salário;realizado;504,91;1,33;
+dados/202601.pdf;balancete_mensal_pdf;Dezembro 2025;2025;12;despesa;02.01.16;Pensão;realizado;737,68;1,94;
+dados/202601.pdf;balancete_mensal_pdf;Dezembro 2025;2025;12;despesa;02.01.23;Benefício Social;realizado;30,00;0,08;
+dados/202601.pdf;balancete_mensal_pdf;Dezembro 2025;2025;12;despesa;02.01.32;Plano Odontológico;realizado;20,00;0,05;
+dados/202601.pdf;balancete_mensal_pdf;Dezembro 2025;2025;12;despesa;02.01.33;Cesta Natalina;realizado;130,13;0,34;
+dados/202601.pdf;balancete_mensal_pdf;Dezembro 2025;2025;12;despesa;02.01.45;PIS sobre 13º salário;realizado;15,29;0,04;
+dados/202601.pdf;balancete_mensal_pdf;Dezembro 2025;2025;12;despesa;02.02;Empresas Públicas e Privadas;realizado;3350,55;8,80;
+dados/202601.pdf;balancete_mensal_pdf;Dezembro 2025;2025;12;despesa;02.02.01;Consumo de Energia;realizado;606,57;1,59;
+dados/202601.pdf;balancete_mensal_pdf;Dezembro 2025;2025;12;despesa;02.02.02;Consumo de Água;realizado;2543,88;6,68;
+dados/202601.pdf;balancete_mensal_pdf;Dezembro 2025;2025;12;despesa;02.02.04;Seguro;realizado;200,10;0,53;
+dados/202601.pdf;balancete_mensal_pdf;Dezembro 2025;2025;12;despesa;02.03;Impostos e Tarifas;realizado;1738,54;4,57;
+dados/202601.pdf;balancete_mensal_pdf;Dezembro 2025;2025;12;despesa;02.03.01;INSS sobre Serviços Prestados;realizado;1143,67;3,00;
+dados/202601.pdf;balancete_mensal_pdf;Dezembro 2025;2025;12;despesa;02.03.03;PIS, COFINS e CSLL de Serviços Prestados;realizado;22,82;0,06;
+dados/202601.pdf;balancete_mensal_pdf;Dezembro 2025;2025;12;despesa;02.03.04;ISS de Serviços Prestados;realizado;519,85;1,37;
+dados/202601.pdf;balancete_mensal_pdf;Dezembro 2025;2025;12;despesa;02.03.05;Despesas Bancárias;realizado;52,20;0,14;
+dados/202601.pdf;balancete_mensal_pdf;Dezembro 2025;2025;12;despesa;02.05;Serviços de Conservação;realizado;2220,50;5,83;
+dados/202601.pdf;balancete_mensal_pdf;Dezembro 2025;2025;12;despesa;02.05.08;Serviço de Dedetização;realizado;400,00;1,05;
+dados/202601.pdf;balancete_mensal_pdf;Dezembro 2025;2025;12;despesa;02.05.09;Caminhão Pipa;realizado;800,00;2,10;
+dados/202601.pdf;balancete_mensal_pdf;Dezembro 2025;2025;12;despesa;02.05.23;Conserto/aquisição de Vidros;realizado;377,00;0,99;
+dados/202601.pdf;balancete_mensal_pdf;Dezembro 2025;2025;12;despesa;02.05.26;Recarga de Extintores;realizado;493,50;1,30;
+dados/202601.pdf;balancete_mensal_pdf;Dezembro 2025;2025;12;despesa;02.05.49;Conserto/Manutenção de Bomba D'água;realizado;150,00;0,39;
+dados/202601.pdf;balancete_mensal_pdf;Dezembro 2025;2025;12;despesa;02.06;Materiais de Conservação;realizado;352,20;0,93;
+dados/202601.pdf;balancete_mensal_pdf;Dezembro 2025;2025;12;despesa;02.06.02;Materiais Diversos de Manutenção;realizado;250,00;0,66;
+dados/202601.pdf;balancete_mensal_pdf;Dezembro 2025;2025;12;despesa;02.06.04;Material de Limpeza;realizado;102,20;0,27;
+dados/202601.pdf;balancete_mensal_pdf;Dezembro 2025;2025;12;despesa;02.07;Contratos Fixos;realizado;6983,22;18,34;
+dados/202601.pdf;balancete_mensal_pdf;Dezembro 2025;2025;12;despesa;02.07.03;Manutenção de Piscina;realizado;250,00;0,66;
+dados/202601.pdf;balancete_mensal_pdf;Dezembro 2025;2025;12;despesa;02.07.06;Taxa de Administração Contábil;realizado;1030,00;2,71;
+dados/202601.pdf;balancete_mensal_pdf;Dezembro 2025;2025;12;despesa;02.07.14;Segurança Eletrônica;realizado;1240,62;3,26;
+dados/202601.pdf;balancete_mensal_pdf;Dezembro 2025;2025;12;despesa;02.07.17;Manutenção de Elevador;realizado;467,84;1,23;
+dados/202601.pdf;balancete_mensal_pdf;Dezembro 2025;2025;12;despesa;02.07.23;Honorários do Síndico;realizado;1100,00;2,89;
+dados/202601.pdf;balancete_mensal_pdf;Dezembro 2025;2025;12;despesa;02.07.40;Locação de Equipamento de Segurança;realizado;2894,76;7,60;
+dados/202601.pdf;balancete_mensal_pdf;Dezembro 2025;2025;12;despesa;02.08;Despesas Diversas Ordinárias;realizado;19,00;0,05;
+dados/202601.pdf;balancete_mensal_pdf;Dezembro 2025;2025;12;despesa;02.08.03;Bloquete, Xerox, Papelaria e Correios;realizado;19,00;0,05;
+dados/202601.pdf;balancete_mensal_pdf;Dezembro 2025;2025;12;despesa;02.09;Despesas Diversas Extraordinárias;realizado;19130,48;50,25;
+dados/202601.pdf;balancete_mensal_pdf;Dezembro 2025;2025;12;despesa;02.09.01;Despesas Pagas com Taxa Extra;realizado;19130,48;50,25;
+dados/202601.pdf;balancete_mensal_pdf;Dezembro 2025;2025;12;resultado;;RESULTADO DO MÊS;realizado;-5622,89;-17,33;
+dados/202602.pdf;balancete_mensal_pdf;Janeiro 2026;2026;1;receita;01;RECEITA;realizado;28603,53;100,00;
+dados/202602.pdf;balancete_mensal_pdf;Janeiro 2026;2026;1;receita;01.01;Receita Operacional;realizado;28984,78;101,33;
+dados/202602.pdf;balancete_mensal_pdf;Janeiro 2026;2026;1;receita;01.01.01;Taxa Condominial;realizado;14492,49;50,67;
+dados/202602.pdf;balancete_mensal_pdf;Janeiro 2026;2026;1;receita;01.01.02;Taxa Extra;realizado;14492,29;50,67;
+dados/202602.pdf;balancete_mensal_pdf;Janeiro 2026;2026;1;receita;01.09;Outras Receitas Operacionais;realizado;-381,25;-1,33;
+dados/202602.pdf;balancete_mensal_pdf;Janeiro 2026;2026;1;receita;01.09.09;Desconto;realizado;-381,25;-1,33;
+dados/202602.pdf;balancete_mensal_pdf;Janeiro 2026;2026;1;despesa;02;DESPESA;realizado;35811,29;100,00;
+dados/202602.pdf;balancete_mensal_pdf;Janeiro 2026;2026;1;despesa;02.01;Despesa com Pessoal;realizado;2920,75;8,16;
+dados/202602.pdf;balancete_mensal_pdf;Janeiro 2026;2026;1;despesa;02.01.01;Salário de Funcionários;realizado;1548,57;4,32;
+dados/202602.pdf;balancete_mensal_pdf;Janeiro 2026;2026;1;despesa;02.01.02;INSS;realizado;504,91;1,41;
+dados/202602.pdf;balancete_mensal_pdf;Janeiro 2026;2026;1;despesa;02.01.03;PIS;realizado;15,29;0,04;
+dados/202602.pdf;balancete_mensal_pdf;Janeiro 2026;2026;1;despesa;02.01.05;Vale Transporte;realizado;249,60;0,70;
+dados/202602.pdf;balancete_mensal_pdf;Janeiro 2026;2026;1;despesa;02.01.06;FGTS;realizado;122,36;0,34;
+dados/202602.pdf;balancete_mensal_pdf;Janeiro 2026;2026;1;despesa;02.01.16;Pensão;realizado;368,84;1,03;
+dados/202602.pdf;balancete_mensal_pdf;Janeiro 2026;2026;1;despesa;02.01.23;Benefício Social;realizado;30,00;0,08;
+dados/202602.pdf;balancete_mensal_pdf;Janeiro 2026;2026;1;despesa;02.01.32;Plano Odontológico;realizado;20,00;0,06;
+dados/202602.pdf;balancete_mensal_pdf;Janeiro 2026;2026;1;despesa;02.01.40;FGTS sobre 13º Salário;realizado;61,18;0,17;
+dados/202602.pdf;balancete_mensal_pdf;Janeiro 2026;2026;1;despesa;02.02;Empresas Públicas e Privadas;realizado;3554,31;9,93;
+dados/202602.pdf;balancete_mensal_pdf;Janeiro 2026;2026;1;despesa;02.02.01;Consumo de Energia;realizado;593,75;1,66;
+dados/202602.pdf;balancete_mensal_pdf;Janeiro 2026;2026;1;despesa;02.02.02;Consumo de Água;realizado;2760,46;7,71;
+dados/202602.pdf;balancete_mensal_pdf;Janeiro 2026;2026;1;despesa;02.02.04;Seguro;realizado;200,10;0,56;
+dados/202602.pdf;balancete_mensal_pdf;Janeiro 2026;2026;1;despesa;02.03;Impostos e Tarifas;realizado;1732,74;4,84;
+dados/202602.pdf;balancete_mensal_pdf;Janeiro 2026;2026;1;despesa;02.03.01;INSS sobre Serviços Prestados;realizado;1143,67;3,19;
+dados/202602.pdf;balancete_mensal_pdf;Janeiro 2026;2026;1;despesa;02.03.03;PIS, COFINS e CSLL de Serviços Prestados;realizado;22,82;0,06;
+dados/202602.pdf;balancete_mensal_pdf;Janeiro 2026;2026;1;despesa;02.03.04;ISS de Serviços Prestados;realizado;519,85;1,45;
+dados/202602.pdf;balancete_mensal_pdf;Janeiro 2026;2026;1;despesa;02.03.05;Despesas Bancárias;realizado;46,40;0,13;
+dados/202602.pdf;balancete_mensal_pdf;Janeiro 2026;2026;1;despesa;02.04;Imobilizado;realizado;334,79;0,93;
+dados/202602.pdf;balancete_mensal_pdf;Janeiro 2026;2026;1;despesa;02.04.03;Produtos Eletrônicos;realizado;334,79;0,93;
+dados/202602.pdf;balancete_mensal_pdf;Janeiro 2026;2026;1;despesa;02.05;Serviços de Conservação;realizado;923,50;2,58;
+dados/202602.pdf;balancete_mensal_pdf;Janeiro 2026;2026;1;despesa;02.05.26;Recarga de Extintores;realizado;493,50;1,38;
+dados/202602.pdf;balancete_mensal_pdf;Janeiro 2026;2026;1;despesa;02.05.40;Conserto de Porta;realizado;430,00;1,20;
+dados/202602.pdf;balancete_mensal_pdf;Janeiro 2026;2026;1;despesa;02.06;Materiais de Conservação;realizado;159,40;0,45;
+dados/202602.pdf;balancete_mensal_pdf;Janeiro 2026;2026;1;despesa;02.06.02;Materiais Diversos de Manutenção;realizado;45,00;0,13;
+dados/202602.pdf;balancete_mensal_pdf;Janeiro 2026;2026;1;despesa;02.06.04;Material de Limpeza;realizado;114,40;0,32;
+dados/202602.pdf;balancete_mensal_pdf;Janeiro 2026;2026;1;despesa;02.07;Contratos Fixos;realizado;7055,32;19,70;
+dados/202602.pdf;balancete_mensal_pdf;Janeiro 2026;2026;1;despesa;02.07.03;Manutenção de Piscina;realizado;250,00;0,70;
+dados/202602.pdf;balancete_mensal_pdf;Janeiro 2026;2026;1;despesa;02.07.06;Taxa de Administração Contábil;realizado;1102,10;3,08;
+dados/202602.pdf;balancete_mensal_pdf;Janeiro 2026;2026;1;despesa;02.07.14;Segurança Eletrônica;realizado;1240,62;3,46;
+dados/202602.pdf;balancete_mensal_pdf;Janeiro 2026;2026;1;despesa;02.07.17;Manutenção de Elevador;realizado;467,84;1,31;
+dados/202602.pdf;balancete_mensal_pdf;Janeiro 2026;2026;1;despesa;02.07.23;Honorários do Síndico;realizado;1100,00;3,07;
+dados/202602.pdf;balancete_mensal_pdf;Janeiro 2026;2026;1;despesa;02.07.40;Locação de Equipamento de Segurança;realizado;2894,76;8,08;
+dados/202602.pdf;balancete_mensal_pdf;Janeiro 2026;2026;1;despesa;02.09;Despesas Diversas Extraordinárias;realizado;19130,48;53,42;
+dados/202602.pdf;balancete_mensal_pdf;Janeiro 2026;2026;1;despesa;02.09.01;Despesas Pagas com Taxa Extra;realizado;19130,48;53,42;
+dados/202602.pdf;balancete_mensal_pdf;Janeiro 2026;2026;1;resultado;;RESULTADO DO MÊS;realizado;-7207,76;-25,20;
+dados/202603.pdf;balancete_mensal_pdf;Fevereiro 2026;2026;2;receita;01;RECEITA;realizado;30600,47;100,00;
+dados/202603.pdf;balancete_mensal_pdf;Fevereiro 2026;2026;2;receita;01.01;Receita Operacional;realizado;30796,33;100,64;
+dados/202603.pdf;balancete_mensal_pdf;Fevereiro 2026;2026;2;receita;01.01.01;Taxa Condominial;realizado;15415,94;50,38;
+dados/202603.pdf;balancete_mensal_pdf;Fevereiro 2026;2026;2;receita;01.01.02;Taxa Extra;realizado;15380,39;50,26;
+dados/202603.pdf;balancete_mensal_pdf;Fevereiro 2026;2026;2;receita;01.07;Juros, Multa, Correções Monetárias;realizado;68,87;0,23;
+dados/202603.pdf;balancete_mensal_pdf;Fevereiro 2026;2026;2;receita;01.07.01;Multa;realizado;27,56;0,09;
+dados/202603.pdf;balancete_mensal_pdf;Fevereiro 2026;2026;2;receita;01.07.02;Juros;realizado;41,31;0,13;
+dados/202603.pdf;balancete_mensal_pdf;Fevereiro 2026;2026;2;receita;01.08;Rendimentos;realizado;116,52;0,38;
+dados/202603.pdf;balancete_mensal_pdf;Fevereiro 2026;2026;2;receita;01.08.01;Rendimento de Poupança;realizado;116,52;0,38;
+dados/202603.pdf;balancete_mensal_pdf;Fevereiro 2026;2026;2;receita;01.09;Outras Receitas Operacionais;realizado;-381,25;-1,25;
+dados/202603.pdf;balancete_mensal_pdf;Fevereiro 2026;2026;2;receita;01.09.09;Desconto;realizado;-381,25;-1,25;
+dados/202603.pdf;balancete_mensal_pdf;Fevereiro 2026;2026;2;despesa;02;DESPESA;realizado;36120,35;100,00;
+dados/202603.pdf;balancete_mensal_pdf;Fevereiro 2026;2026;2;despesa;02.01;Despesa com Pessoal;realizado;2942,51;8,15;
+dados/202603.pdf;balancete_mensal_pdf;Fevereiro 2026;2026;2;despesa;02.01.01;Salário de Funcionários;realizado;1548,57;4,29;
+dados/202603.pdf;balancete_mensal_pdf;Fevereiro 2026;2026;2;despesa;02.01.02;INSS;realizado;534,91;1,48;
+dados/202603.pdf;balancete_mensal_pdf;Fevereiro 2026;2026;2;despesa;02.01.03;PIS;realizado;16,21;0,04;
+dados/202603.pdf;balancete_mensal_pdf;Fevereiro 2026;2026;2;despesa;02.01.05;Vale Transporte;realizado;294,30;0,81;
+dados/202603.pdf;balancete_mensal_pdf;Fevereiro 2026;2026;2;despesa;02.01.06;FGTS;realizado;129,68;0,36;
+dados/202603.pdf;balancete_mensal_pdf;Fevereiro 2026;2026;2;despesa;02.01.16;Pensão;realizado;368,84;1,02;
+dados/202603.pdf;balancete_mensal_pdf;Fevereiro 2026;2026;2;despesa;02.01.23;Benefício Social;realizado;30,00;0,08;
+dados/202603.pdf;balancete_mensal_pdf;Fevereiro 2026;2026;2;despesa;02.01.32;Plano Odontológico;realizado;20,00;0,06;
+dados/202603.pdf;balancete_mensal_pdf;Fevereiro 2026;2026;2;despesa;02.02;Empresas Públicas e Privadas;realizado;4378,18;12,12;
+dados/202603.pdf;balancete_mensal_pdf;Fevereiro 2026;2026;2;despesa;02.02.01;Consumo de Energia;realizado;551,23;1,53;
+dados/202603.pdf;balancete_mensal_pdf;Fevereiro 2026;2026;2;despesa;02.02.02;Consumo de Água;realizado;3626,78;10,04;
+dados/202603.pdf;balancete_mensal_pdf;Fevereiro 2026;2026;2;despesa;02.02.04;Seguro;realizado;200,17;0,55;
+dados/202603.pdf;balancete_mensal_pdf;Fevereiro 2026;2026;2;despesa;02.03;Impostos e Tarifas;realizado;1735,64;4,81;
+dados/202603.pdf;balancete_mensal_pdf;Fevereiro 2026;2026;2;despesa;02.03.01;INSS sobre Serviços Prestados;realizado;1143,67;3,17;
+dados/202603.pdf;balancete_mensal_pdf;Fevereiro 2026;2026;2;despesa;02.03.03;PIS, COFINS e CSLL de Serviços Prestados;realizado;22,82;0,06;
+dados/202603.pdf;balancete_mensal_pdf;Fevereiro 2026;2026;2;despesa;02.03.04;ISS de Serviços Prestados;realizado;519,85;1,44;
+dados/202603.pdf;balancete_mensal_pdf;Fevereiro 2026;2026;2;despesa;02.03.05;Despesas Bancárias;realizado;49,30;0,14;
+dados/202603.pdf;balancete_mensal_pdf;Fevereiro 2026;2026;2;despesa;02.05;Serviços de Conservação;realizado;19,90;0,06;
+dados/202603.pdf;balancete_mensal_pdf;Fevereiro 2026;2026;2;despesa;02.05.37;Confecção de Adesivos;realizado;19,90;0,06;
+dados/202603.pdf;balancete_mensal_pdf;Fevereiro 2026;2026;2;despesa;02.06;Materiais de Conservação;realizado;760,88;2,11;
+dados/202603.pdf;balancete_mensal_pdf;Fevereiro 2026;2026;2;despesa;02.06.03;Equipamentos de Manutenção/Conservação;realizado;114,78;0,32;
+dados/202603.pdf;balancete_mensal_pdf;Fevereiro 2026;2026;2;despesa;02.06.04;Material de Limpeza;realizado;169,60;0,47;
+dados/202603.pdf;balancete_mensal_pdf;Fevereiro 2026;2026;2;despesa;02.06.05;Material de Piscina;realizado;476,50;1,32;
+dados/202603.pdf;balancete_mensal_pdf;Fevereiro 2026;2026;2;despesa;02.07;Contratos Fixos;realizado;7107,54;19,68;
+dados/202603.pdf;balancete_mensal_pdf;Fevereiro 2026;2026;2;despesa;02.07.03;Manutenção de Piscina;realizado;250,00;0,69;
+dados/202603.pdf;balancete_mensal_pdf;Fevereiro 2026;2026;2;despesa;02.07.06;Taxa de Administração Contábil;realizado;1102,10;3,05;
+dados/202603.pdf;balancete_mensal_pdf;Fevereiro 2026;2026;2;despesa;02.07.14;Segurança Eletrônica;realizado;1240,61;3,43;
+dados/202603.pdf;balancete_mensal_pdf;Fevereiro 2026;2026;2;despesa;02.07.17;Manutenção de Elevador;realizado;520,06;1,44;
+dados/202603.pdf;balancete_mensal_pdf;Fevereiro 2026;2026;2;despesa;02.07.23;Honorários do Síndico;realizado;1100,00;3,05;
+dados/202603.pdf;balancete_mensal_pdf;Fevereiro 2026;2026;2;despesa;02.07.40;Locação de Equipamento de Segurança;realizado;2894,77;8,01;
+dados/202603.pdf;balancete_mensal_pdf;Fevereiro 2026;2026;2;despesa;02.08;Despesas Diversas Ordinárias;realizado;19,00;0,05;
+dados/202603.pdf;balancete_mensal_pdf;Fevereiro 2026;2026;2;despesa;02.08.03;Bloquete, Xerox, Papelaria e Correios;realizado;19,00;0,05;
+dados/202603.pdf;balancete_mensal_pdf;Fevereiro 2026;2026;2;despesa;02.09;Despesas Diversas Extraordinárias;realizado;19130,48;52,96;
+dados/202603.pdf;balancete_mensal_pdf;Fevereiro 2026;2026;2;despesa;02.09.01;Despesas Pagas com Taxa Extra;realizado;19130,48;52,96;
+dados/202603.pdf;balancete_mensal_pdf;Fevereiro 2026;2026;2;despesa;02.10;Despesas Financeiras;realizado;26,22;0,07;
+dados/202603.pdf;balancete_mensal_pdf;Fevereiro 2026;2026;2;despesa;02.10.03;Débito de IRRF;realizado;26,22;0,07;
+dados/202603.pdf;balancete_mensal_pdf;Fevereiro 2026;2026;2;resultado;;RESULTADO DO MÊS;realizado;-5519,88;-18,04;
+dados/Balancete contabil por periodo - Palestri Italia (3).pdf;resumo_mensal_dashboard;Janeiro 2025;2025;1;receita;;Receitas totais;receita_total;29752,32;;Base estruturada usada pelo dashboard
+dados/Balancete contabil por periodo - Palestri Italia (3).pdf;resumo_mensal_dashboard;Janeiro 2025;2025;1;receita;;Receitas ordinárias;receita_ordinaria;15732,35;;Base estruturada usada pelo dashboard
+dados/Balancete contabil por periodo - Palestri Italia (3).pdf;resumo_mensal_dashboard;Janeiro 2025;2025;1;receita;01.01.01;Taxa Condominial;taxa_condominial;15476,25;;Base estruturada usada pelo dashboard
+dados/Balancete contabil por periodo - Palestri Italia (3).pdf;resumo_mensal_dashboard;Janeiro 2025;2025;1;receita;01.01.02;Taxa Extra;receita_extra;14019,97;;Base estruturada usada pelo dashboard
+dados/Balancete contabil por periodo - Palestri Italia (3).pdf;resumo_mensal_dashboard;Janeiro 2025;2025;1;despesa;;Despesas totais;despesa_total;15836,87;;Base estruturada usada pelo dashboard
+dados/Balancete contabil por periodo - Palestri Italia (3).pdf;resumo_mensal_dashboard;Janeiro 2025;2025;1;despesa;;Despesas ordinárias;despesa_ordinaria;15436,87;;Base estruturada usada pelo dashboard
+dados/Balancete contabil por periodo - Palestri Italia (3).pdf;resumo_mensal_dashboard;Janeiro 2025;2025;1;despesa;02.09;Despesas extraordinárias;despesa_extra;400,00;;Base estruturada usada pelo dashboard
+dados/Balancete contabil por periodo - Palestri Italia (3).pdf;resumo_mensal_dashboard;Janeiro 2025;2025;1;resultado;;Resultado do mês;resultado;13915,45;;Base estruturada usada pelo dashboard
+dados/Balancete contabil por periodo - Palestri Italia (3).pdf;resumo_mensal_dashboard;Janeiro 2025;2025;1;despesa;;Despesa com Pessoal;despesa_categoria_personnel;3817,02;;Categoria usada no gráfico de despesas
+dados/Balancete contabil por periodo - Palestri Italia (3).pdf;resumo_mensal_dashboard;Janeiro 2025;2025;1;despesa;;Contratos Fixos;despesa_categoria_contracts;3911,24;;Categoria usada no gráfico de despesas
+dados/Balancete contabil por periodo - Palestri Italia (3).pdf;resumo_mensal_dashboard;Janeiro 2025;2025;1;despesa;;Materiais de Conservação;despesa_categoria_materials;250,80;;Categoria usada no gráfico de despesas
+dados/Balancete contabil por periodo - Palestri Italia (3).pdf;resumo_mensal_dashboard;Fevereiro 2025;2025;2;receita;;Receitas totais;receita_total;30212,42;;Base estruturada usada pelo dashboard
+dados/Balancete contabil por periodo - Palestri Italia (3).pdf;resumo_mensal_dashboard;Fevereiro 2025;2025;2;receita;;Receitas ordinárias;receita_ordinaria;16214,46;;Base estruturada usada pelo dashboard
+dados/Balancete contabil por periodo - Palestri Italia (3).pdf;resumo_mensal_dashboard;Fevereiro 2025;2025;2;receita;01.01.01;Taxa Condominial;taxa_condominial;16123,31;;Base estruturada usada pelo dashboard
+dados/Balancete contabil por periodo - Palestri Italia (3).pdf;resumo_mensal_dashboard;Fevereiro 2025;2025;2;receita;01.01.02;Taxa Extra;receita_extra;13997,96;;Base estruturada usada pelo dashboard
+dados/Balancete contabil por periodo - Palestri Italia (3).pdf;resumo_mensal_dashboard;Fevereiro 2025;2025;2;despesa;;Despesas totais;despesa_total;15003,33;;Base estruturada usada pelo dashboard
+dados/Balancete contabil por periodo - Palestri Italia (3).pdf;resumo_mensal_dashboard;Fevereiro 2025;2025;2;despesa;;Despesas ordinárias;despesa_ordinaria;14166,08;;Base estruturada usada pelo dashboard
+dados/Balancete contabil por periodo - Palestri Italia (3).pdf;resumo_mensal_dashboard;Fevereiro 2025;2025;2;despesa;02.09;Despesas extraordinárias;despesa_extra;837,25;;Base estruturada usada pelo dashboard
+dados/Balancete contabil por periodo - Palestri Italia (3).pdf;resumo_mensal_dashboard;Fevereiro 2025;2025;2;resultado;;Resultado do mês;resultado;15209,09;;Base estruturada usada pelo dashboard
+dados/Balancete contabil por periodo - Palestri Italia (3).pdf;resumo_mensal_dashboard;Fevereiro 2025;2025;2;despesa;;Despesa com Pessoal;despesa_categoria_personnel;2878,32;;Categoria usada no gráfico de despesas
+dados/Balancete contabil por periodo - Palestri Italia (3).pdf;resumo_mensal_dashboard;Fevereiro 2025;2025;2;despesa;;Contratos Fixos;despesa_categoria_contracts;3742,54;;Categoria usada no gráfico de despesas
+dados/Balancete contabil por periodo - Palestri Italia (3).pdf;resumo_mensal_dashboard;Fevereiro 2025;2025;2;despesa;;Materiais de Conservação;despesa_categoria_materials;805,00;;Categoria usada no gráfico de despesas
+dados/Balancete contabil por periodo - Palestri Italia (3).pdf;resumo_mensal_dashboard;Março 2025;2025;3;receita;;Receitas totais;receita_total;16807,82;;Base estruturada usada pelo dashboard
+dados/Balancete contabil por periodo - Palestri Italia (3).pdf;resumo_mensal_dashboard;Março 2025;2025;3;receita;;Receitas ordinárias;receita_ordinaria;16167,62;;Base estruturada usada pelo dashboard
+dados/Balancete contabil por periodo - Palestri Italia (3).pdf;resumo_mensal_dashboard;Março 2025;2025;3;receita;01.01.01;Taxa Condominial;taxa_condominial;16087,30;;Base estruturada usada pelo dashboard
+dados/Balancete contabil por periodo - Palestri Italia (3).pdf;resumo_mensal_dashboard;Março 2025;2025;3;receita;01.01.02;Taxa Extra;receita_extra;640,20;;Base estruturada usada pelo dashboard
+dados/Balancete contabil por periodo - Palestri Italia (3).pdf;resumo_mensal_dashboard;Março 2025;2025;3;despesa;;Despesas totais;despesa_total;22029,57;;Base estruturada usada pelo dashboard
+dados/Balancete contabil por periodo - Palestri Italia (3).pdf;resumo_mensal_dashboard;Março 2025;2025;3;despesa;;Despesas ordinárias;despesa_ordinaria;13849,57;;Base estruturada usada pelo dashboard
+dados/Balancete contabil por periodo - Palestri Italia (3).pdf;resumo_mensal_dashboard;Março 2025;2025;3;despesa;02.09;Despesas extraordinárias;despesa_extra;8180,00;;Base estruturada usada pelo dashboard
+dados/Balancete contabil por periodo - Palestri Italia (3).pdf;resumo_mensal_dashboard;Março 2025;2025;3;resultado;;Resultado do mês;resultado;-5221,75;;Base estruturada usada pelo dashboard
+dados/Balancete contabil por periodo - Palestri Italia (3).pdf;resumo_mensal_dashboard;Março 2025;2025;3;despesa;;Despesa com Pessoal;despesa_categoria_personnel;2918,38;;Categoria usada no gráfico de despesas
+dados/Balancete contabil por periodo - Palestri Italia (3).pdf;resumo_mensal_dashboard;Março 2025;2025;3;despesa;;Contratos Fixos;despesa_categoria_contracts;3992,54;;Categoria usada no gráfico de despesas
+dados/Balancete contabil por periodo - Palestri Italia (3).pdf;resumo_mensal_dashboard;Março 2025;2025;3;despesa;;Materiais de Conservação;despesa_categoria_materials;199,90;;Categoria usada no gráfico de despesas
+dados/Balancete contabil por periodo - Palestri Italia (3).pdf;resumo_mensal_dashboard;Abril 2025;2025;4;receita;;Receitas totais;receita_total;15447,43;;Base estruturada usada pelo dashboard
+dados/Balancete contabil por periodo - Palestri Italia (3).pdf;resumo_mensal_dashboard;Abril 2025;2025;4;receita;;Receitas ordinárias;receita_ordinaria;15447,43;;Base estruturada usada pelo dashboard
+dados/Balancete contabil por periodo - Palestri Italia (3).pdf;resumo_mensal_dashboard;Abril 2025;2025;4;receita;01.01.01;Taxa Condominial;taxa_condominial;14709,24;;Base estruturada usada pelo dashboard
+dados/Balancete contabil por periodo - Palestri Italia (3).pdf;resumo_mensal_dashboard;Abril 2025;2025;4;receita;01.01.02;Taxa Extra;receita_extra;0,00;;Base estruturada usada pelo dashboard
+dados/Balancete contabil por periodo - Palestri Italia (3).pdf;resumo_mensal_dashboard;Abril 2025;2025;4;despesa;;Despesas totais;despesa_total;17959,57;;Base estruturada usada pelo dashboard
+dados/Balancete contabil por periodo - Palestri Italia (3).pdf;resumo_mensal_dashboard;Abril 2025;2025;4;despesa;;Despesas ordinárias;despesa_ordinaria;13036,11;;Base estruturada usada pelo dashboard
+dados/Balancete contabil por periodo - Palestri Italia (3).pdf;resumo_mensal_dashboard;Abril 2025;2025;4;despesa;02.09;Despesas extraordinárias;despesa_extra;4923,46;;Base estruturada usada pelo dashboard
+dados/Balancete contabil por periodo - Palestri Italia (3).pdf;resumo_mensal_dashboard;Abril 2025;2025;4;resultado;;Resultado do mês;resultado;-2512,14;;Base estruturada usada pelo dashboard
+dados/Balancete contabil por periodo - Palestri Italia (3).pdf;resumo_mensal_dashboard;Abril 2025;2025;4;despesa;;Despesa com Pessoal;despesa_categoria_personnel;2875,07;;Categoria usada no gráfico de despesas
+dados/Balancete contabil por periodo - Palestri Italia (3).pdf;resumo_mensal_dashboard;Abril 2025;2025;4;despesa;;Contratos Fixos;despesa_categoria_contracts;3992,54;;Categoria usada no gráfico de despesas
+dados/Balancete contabil por periodo - Palestri Italia (3).pdf;resumo_mensal_dashboard;Abril 2025;2025;4;despesa;;Materiais de Conservação;despesa_categoria_materials;199,95;;Categoria usada no gráfico de despesas
+dados/Balancete contabil por periodo - Palestri Italia (3).pdf;resumo_mensal_dashboard;Maio 2025;2025;5;receita;;Receitas totais;receita_total;15407,88;;Base estruturada usada pelo dashboard
+dados/Balancete contabil por periodo - Palestri Italia (3).pdf;resumo_mensal_dashboard;Maio 2025;2025;5;receita;;Receitas ordinárias;receita_ordinaria;15407,88;;Base estruturada usada pelo dashboard
+dados/Balancete contabil por periodo - Palestri Italia (3).pdf;resumo_mensal_dashboard;Maio 2025;2025;5;receita;01.01.01;Taxa Condominial;taxa_condominial;15380,60;;Base estruturada usada pelo dashboard
+dados/Balancete contabil por periodo - Palestri Italia (3).pdf;resumo_mensal_dashboard;Maio 2025;2025;5;receita;01.01.02;Taxa Extra;receita_extra;0,00;;Base estruturada usada pelo dashboard
+dados/Balancete contabil por periodo - Palestri Italia (3).pdf;resumo_mensal_dashboard;Maio 2025;2025;5;despesa;;Despesas totais;despesa_total;19172,85;;Base estruturada usada pelo dashboard
+dados/Balancete contabil por periodo - Palestri Italia (3).pdf;resumo_mensal_dashboard;Maio 2025;2025;5;despesa;;Despesas ordinárias;despesa_ordinaria;17113,85;;Base estruturada usada pelo dashboard
+dados/Balancete contabil por periodo - Palestri Italia (3).pdf;resumo_mensal_dashboard;Maio 2025;2025;5;despesa;02.09;Despesas extraordinárias;despesa_extra;2059,00;;Base estruturada usada pelo dashboard
+dados/Balancete contabil por periodo - Palestri Italia (3).pdf;resumo_mensal_dashboard;Maio 2025;2025;5;resultado;;Resultado do mês;resultado;-3764,97;;Base estruturada usada pelo dashboard
+dados/Balancete contabil por periodo - Palestri Italia (3).pdf;resumo_mensal_dashboard;Maio 2025;2025;5;despesa;;Despesa com Pessoal;despesa_categoria_personnel;2969,75;;Categoria usada no gráfico de despesas
+dados/Balancete contabil por periodo - Palestri Italia (3).pdf;resumo_mensal_dashboard;Maio 2025;2025;5;despesa;;Contratos Fixos;despesa_categoria_contracts;3992,54;;Categoria usada no gráfico de despesas
+dados/Balancete contabil por periodo - Palestri Italia (3).pdf;resumo_mensal_dashboard;Maio 2025;2025;5;despesa;;Materiais de Conservação;despesa_categoria_materials;1780,79;;Categoria usada no gráfico de despesas
+dados/Balancete contabil por periodo - Palestri Italia (3).pdf;resumo_mensal_dashboard;Junho 2025;2025;6;receita;;Receitas totais;receita_total;29447,52;;Base estruturada usada pelo dashboard
+dados/Balancete contabil por periodo - Palestri Italia (3).pdf;resumo_mensal_dashboard;Junho 2025;2025;6;receita;;Receitas ordinárias;receita_ordinaria;14738,48;;Base estruturada usada pelo dashboard
+dados/Balancete contabil por periodo - Palestri Italia (3).pdf;resumo_mensal_dashboard;Junho 2025;2025;6;receita;01.01.01;Taxa Condominial;taxa_condominial;14709,24;;Base estruturada usada pelo dashboard
+dados/Balancete contabil por periodo - Palestri Italia (3).pdf;resumo_mensal_dashboard;Junho 2025;2025;6;receita;01.01.02;Taxa Extra;receita_extra;14709,04;;Base estruturada usada pelo dashboard
+dados/Balancete contabil por periodo - Palestri Italia (3).pdf;resumo_mensal_dashboard;Junho 2025;2025;6;despesa;;Despesas totais;despesa_total;21580,98;;Base estruturada usada pelo dashboard
+dados/Balancete contabil por periodo - Palestri Italia (3).pdf;resumo_mensal_dashboard;Junho 2025;2025;6;despesa;;Despesas ordinárias;despesa_ordinaria;14880,98;;Base estruturada usada pelo dashboard
+dados/Balancete contabil por periodo - Palestri Italia (3).pdf;resumo_mensal_dashboard;Junho 2025;2025;6;despesa;02.09;Despesas extraordinárias;despesa_extra;6700,00;;Base estruturada usada pelo dashboard
+dados/Balancete contabil por periodo - Palestri Italia (3).pdf;resumo_mensal_dashboard;Junho 2025;2025;6;resultado;;Resultado do mês;resultado;7866,54;;Base estruturada usada pelo dashboard
+dados/Balancete contabil por periodo - Palestri Italia (3).pdf;resumo_mensal_dashboard;Junho 2025;2025;6;despesa;;Despesa com Pessoal;despesa_categoria_personnel;2811,55;;Categoria usada no gráfico de despesas
+dados/Balancete contabil por periodo - Palestri Italia (3).pdf;resumo_mensal_dashboard;Junho 2025;2025;6;despesa;;Contratos Fixos;despesa_categoria_contracts;6804,08;;Categoria usada no gráfico de despesas
+dados/Balancete contabil por periodo - Palestri Italia (3).pdf;resumo_mensal_dashboard;Junho 2025;2025;6;despesa;;Materiais de Conservação;despesa_categoria_materials;86,68;;Categoria usada no gráfico de despesas
+dados/Balancete contabil por periodo - Palestri Italia (3).pdf;resumo_mensal_dashboard;Julho 2025;2025;7;receita;;Receitas totais;receita_total;32537,20;;Base estruturada usada pelo dashboard
+dados/Balancete contabil por periodo - Palestri Italia (3).pdf;resumo_mensal_dashboard;Julho 2025;2025;7;receita;;Receitas ordinárias;receita_ordinaria;16268,71;;Base estruturada usada pelo dashboard
+dados/Balancete contabil por periodo - Palestri Italia (3).pdf;resumo_mensal_dashboard;Julho 2025;2025;7;receita;01.01.01;Taxa Condominial;taxa_condominial;16268,71;;Base estruturada usada pelo dashboard
+dados/Balancete contabil por periodo - Palestri Italia (3).pdf;resumo_mensal_dashboard;Julho 2025;2025;7;receita;01.01.02;Taxa Extra;receita_extra;16268,49;;Base estruturada usada pelo dashboard
+dados/Balancete contabil por periodo - Palestri Italia (3).pdf;resumo_mensal_dashboard;Julho 2025;2025;7;despesa;;Despesas totais;despesa_total;19355,88;;Base estruturada usada pelo dashboard
+dados/Balancete contabil por periodo - Palestri Italia (3).pdf;resumo_mensal_dashboard;Julho 2025;2025;7;despesa;;Despesas ordinárias;despesa_ordinaria;16855,88;;Base estruturada usada pelo dashboard
+dados/Balancete contabil por periodo - Palestri Italia (3).pdf;resumo_mensal_dashboard;Julho 2025;2025;7;despesa;02.09;Despesas extraordinárias;despesa_extra;2500,00;;Base estruturada usada pelo dashboard
+dados/Balancete contabil por periodo - Palestri Italia (3).pdf;resumo_mensal_dashboard;Julho 2025;2025;7;resultado;;Resultado do mês;resultado;13181,32;;Base estruturada usada pelo dashboard
+dados/Balancete contabil por periodo - Palestri Italia (3).pdf;resumo_mensal_dashboard;Julho 2025;2025;7;despesa;;Despesa com Pessoal;despesa_categoria_personnel;2801,15;;Categoria usada no gráfico de despesas
+dados/Balancete contabil por periodo - Palestri Italia (3).pdf;resumo_mensal_dashboard;Julho 2025;2025;7;despesa;;Contratos Fixos;despesa_categoria_contracts;6864,33;;Categoria usada no gráfico de despesas
+dados/Balancete contabil por periodo - Palestri Italia (3).pdf;resumo_mensal_dashboard;Julho 2025;2025;7;despesa;;Materiais de Conservação;despesa_categoria_materials;840,86;;Categoria usada no gráfico de despesas
+dados/Balancete contabil por periodo - Palestri Italia (3).pdf;resumo_mensal_dashboard;Agosto 2025;2025;8;receita;;Receitas totais;receita_total;30690,03;;Base estruturada usada pelo dashboard
+dados/Balancete contabil por periodo - Palestri Italia (3).pdf;resumo_mensal_dashboard;Agosto 2025;2025;8;receita;;Receitas ordinárias;receita_ordinaria;15526,39;;Base estruturada usada pelo dashboard
+dados/Balancete contabil por periodo - Palestri Italia (3).pdf;resumo_mensal_dashboard;Agosto 2025;2025;8;receita;01.01.01;Taxa Condominial;taxa_condominial;15199,19;;Base estruturada usada pelo dashboard
+dados/Balancete contabil por periodo - Palestri Italia (3).pdf;resumo_mensal_dashboard;Agosto 2025;2025;8;receita;01.01.02;Taxa Extra;receita_extra;15163,64;;Base estruturada usada pelo dashboard
+dados/Balancete contabil por periodo - Palestri Italia (3).pdf;resumo_mensal_dashboard;Agosto 2025;2025;8;despesa;;Despesas totais;despesa_total;11743,68;;Base estruturada usada pelo dashboard
+dados/Balancete contabil por periodo - Palestri Italia (3).pdf;resumo_mensal_dashboard;Agosto 2025;2025;8;despesa;;Despesas ordinárias;despesa_ordinaria;11743,68;;Base estruturada usada pelo dashboard
+dados/Balancete contabil por periodo - Palestri Italia (3).pdf;resumo_mensal_dashboard;Agosto 2025;2025;8;despesa;02.09;Despesas extraordinárias;despesa_extra;0,00;;Base estruturada usada pelo dashboard
+dados/Balancete contabil por periodo - Palestri Italia (3).pdf;resumo_mensal_dashboard;Agosto 2025;2025;8;resultado;;Resultado do mês;resultado;18946,35;;Base estruturada usada pelo dashboard
+dados/Balancete contabil por periodo - Palestri Italia (3).pdf;resumo_mensal_dashboard;Agosto 2025;2025;8;despesa;;Despesa com Pessoal;despesa_categoria_personnel;692,56;;Categoria usada no gráfico de despesas
+dados/Balancete contabil por periodo - Palestri Italia (3).pdf;resumo_mensal_dashboard;Agosto 2025;2025;8;despesa;;Contratos Fixos;despesa_categoria_contracts;5584,33;;Categoria usada no gráfico de despesas
+dados/Balancete contabil por periodo - Palestri Italia (3).pdf;resumo_mensal_dashboard;Agosto 2025;2025;8;despesa;;Materiais de Conservação;despesa_categoria_materials;624,40;;Categoria usada no gráfico de despesas
+dados/Balancete contabil por periodo - Palestri Italia (3).pdf;resumo_mensal_dashboard;Setembro 2025;2025;9;receita;;Receitas totais;receita_total;30907,99;;Base estruturada usada pelo dashboard
+dados/Balancete contabil por periodo - Palestri Italia (3).pdf;resumo_mensal_dashboard;Setembro 2025;2025;9;receita;;Receitas ordinárias;receita_ordinaria;15527,60;;Base estruturada usada pelo dashboard
+dados/Balancete contabil por periodo - Palestri Italia (3).pdf;resumo_mensal_dashboard;Setembro 2025;2025;9;receita;01.01.01;Taxa Condominial;taxa_condominial;15380,60;;Base estruturada usada pelo dashboard
+dados/Balancete contabil por periodo - Palestri Italia (3).pdf;resumo_mensal_dashboard;Setembro 2025;2025;9;receita;01.01.02;Taxa Extra;receita_extra;15380,39;;Base estruturada usada pelo dashboard
+dados/Balancete contabil por periodo - Palestri Italia (3).pdf;resumo_mensal_dashboard;Setembro 2025;2025;9;despesa;;Despesas totais;despesa_total;17600,21;;Base estruturada usada pelo dashboard
+dados/Balancete contabil por periodo - Palestri Italia (3).pdf;resumo_mensal_dashboard;Setembro 2025;2025;9;despesa;;Despesas ordinárias;despesa_ordinaria;17600,21;;Base estruturada usada pelo dashboard
+dados/Balancete contabil por periodo - Palestri Italia (3).pdf;resumo_mensal_dashboard;Setembro 2025;2025;9;despesa;02.09;Despesas extraordinárias;despesa_extra;0,00;;Base estruturada usada pelo dashboard
+dados/Balancete contabil por periodo - Palestri Italia (3).pdf;resumo_mensal_dashboard;Setembro 2025;2025;9;resultado;;Resultado do mês;resultado;13307,78;;Base estruturada usada pelo dashboard
+dados/Balancete contabil por periodo - Palestri Italia (3).pdf;resumo_mensal_dashboard;Setembro 2025;2025;9;despesa;;Despesa com Pessoal;despesa_categoria_personnel;4920,14;;Categoria usada no gráfico de despesas
+dados/Balancete contabil por periodo - Palestri Italia (3).pdf;resumo_mensal_dashboard;Setembro 2025;2025;9;despesa;;Contratos Fixos;despesa_categoria_contracts;8263,22;;Categoria usada no gráfico de despesas
+dados/Balancete contabil por periodo - Palestri Italia (3).pdf;resumo_mensal_dashboard;Setembro 2025;2025;9;despesa;;Materiais de Conservação;despesa_categoria_materials;181,90;;Categoria usada no gráfico de despesas
+dados/Balancete contabil por periodo - Palestri Italia (3).pdf;resumo_mensal_dashboard;Outubro 2025;2025;10;receita;;Receitas totais;receita_total;32103,70;;Base estruturada usada pelo dashboard
+dados/Balancete contabil por periodo - Palestri Italia (3).pdf;resumo_mensal_dashboard;Outubro 2025;2025;10;receita;;Receitas ordinárias;receita_ordinaria;16051,96;;Base estruturada usada pelo dashboard
+dados/Balancete contabil por periodo - Palestri Italia (3).pdf;resumo_mensal_dashboard;Outubro 2025;2025;10;receita;01.01.01;Taxa Condominial;taxa_condominial;16051,96;;Base estruturada usada pelo dashboard
+dados/Balancete contabil por periodo - Palestri Italia (3).pdf;resumo_mensal_dashboard;Outubro 2025;2025;10;receita;01.01.02;Taxa Extra;receita_extra;16051,74;;Base estruturada usada pelo dashboard
+dados/Balancete contabil por periodo - Palestri Italia (3).pdf;resumo_mensal_dashboard;Outubro 2025;2025;10;despesa;;Despesas totais;despesa_total;39207,00;;Base estruturada usada pelo dashboard
+dados/Balancete contabil por periodo - Palestri Italia (3).pdf;resumo_mensal_dashboard;Outubro 2025;2025;10;despesa;;Despesas ordinárias;despesa_ordinaria;15292,70;;Base estruturada usada pelo dashboard
+dados/Balancete contabil por periodo - Palestri Italia (3).pdf;resumo_mensal_dashboard;Outubro 2025;2025;10;despesa;02.09;Despesas extraordinárias;despesa_extra;23914,30;;Base estruturada usada pelo dashboard
+dados/Balancete contabil por periodo - Palestri Italia (3).pdf;resumo_mensal_dashboard;Outubro 2025;2025;10;resultado;;Resultado do mês;resultado;-7103,30;;Base estruturada usada pelo dashboard
+dados/Balancete contabil por periodo - Palestri Italia (3).pdf;resumo_mensal_dashboard;Outubro 2025;2025;10;despesa;;Despesa com Pessoal;despesa_categoria_personnel;3519,39;;Categoria usada no gráfico de despesas
+dados/Balancete contabil por periodo - Palestri Italia (3).pdf;resumo_mensal_dashboard;Outubro 2025;2025;10;despesa;;Contratos Fixos;despesa_categoria_contracts;6983,22;;Categoria usada no gráfico de despesas
+dados/Balancete contabil por periodo - Palestri Italia (3).pdf;resumo_mensal_dashboard;Outubro 2025;2025;10;despesa;;Materiais de Conservação;despesa_categoria_materials;402,25;;Categoria usada no gráfico de despesas
+dados/Balancete contabil por periodo - Palestri Italia (3).pdf;resumo_mensal_dashboard;Novembro 2025;2025;11;receita;;Receitas totais;receita_total;27979,92;;Base estruturada usada pelo dashboard
+dados/Balancete contabil por periodo - Palestri Italia (3).pdf;resumo_mensal_dashboard;Novembro 2025;2025;11;receita;;Receitas ordinárias;receita_ordinaria;13942,23;;Base estruturada usada pelo dashboard
+dados/Balancete contabil por periodo - Palestri Italia (3).pdf;resumo_mensal_dashboard;Novembro 2025;2025;11;receita;01.01.01;Taxa Condominial;taxa_condominial;14084,62;;Base estruturada usada pelo dashboard
+dados/Balancete contabil por periodo - Palestri Italia (3).pdf;resumo_mensal_dashboard;Novembro 2025;2025;11;receita;01.01.02;Taxa Extra;receita_extra;14037,69;;Base estruturada usada pelo dashboard
+dados/Balancete contabil por periodo - Palestri Italia (3).pdf;resumo_mensal_dashboard;Novembro 2025;2025;11;despesa;;Despesas totais;despesa_total;37933,13;;Base estruturada usada pelo dashboard
+dados/Balancete contabil por periodo - Palestri Italia (3).pdf;resumo_mensal_dashboard;Novembro 2025;2025;11;despesa;;Despesas ordinárias;despesa_ordinaria;18802,65;;Base estruturada usada pelo dashboard
+dados/Balancete contabil por periodo - Palestri Italia (3).pdf;resumo_mensal_dashboard;Novembro 2025;2025;11;despesa;02.09;Despesas extraordinárias;despesa_extra;19130,48;;Base estruturada usada pelo dashboard
+dados/Balancete contabil por periodo - Palestri Italia (3).pdf;resumo_mensal_dashboard;Novembro 2025;2025;11;resultado;;Resultado do mês;resultado;-9953,21;;Base estruturada usada pelo dashboard
+dados/Balancete contabil por periodo - Palestri Italia (3).pdf;resumo_mensal_dashboard;Novembro 2025;2025;11;despesa;;Despesa com Pessoal;despesa_categoria_personnel;3783,48;;Categoria usada no gráfico de despesas
+dados/Balancete contabil por periodo - Palestri Italia (3).pdf;resumo_mensal_dashboard;Novembro 2025;2025;11;despesa;;Contratos Fixos;despesa_categoria_contracts;6983,22;;Categoria usada no gráfico de despesas
+dados/Balancete contabil por periodo - Palestri Italia (3).pdf;resumo_mensal_dashboard;Novembro 2025;2025;11;despesa;;Materiais de Conservação;despesa_categoria_materials;555,60;;Categoria usada no gráfico de despesas
+dados/Balancete contabil por periodo - Palestri Italia (3).pdf;resumo_mensal_dashboard;Dezembro 2025;2025;12;receita;;Receitas totais;receita_total;32447,62;;Base estruturada usada pelo dashboard
+dados/Balancete contabil por periodo - Palestri Italia (3).pdf;resumo_mensal_dashboard;Dezembro 2025;2025;12;receita;;Receitas ordinárias;receita_ordinaria;16179,13;;Base estruturada usada pelo dashboard
+dados/Balancete contabil por periodo - Palestri Italia (3).pdf;resumo_mensal_dashboard;Dezembro 2025;2025;12;receita;01.01.01;Taxa Condominial;taxa_condominial;16304,05;;Base estruturada usada pelo dashboard
+dados/Balancete contabil por periodo - Palestri Italia (3).pdf;resumo_mensal_dashboard;Dezembro 2025;2025;12;receita;01.01.02;Taxa Extra;receita_extra;16268,49;;Base estruturada usada pelo dashboard
+dados/Balancete contabil por periodo - Palestri Italia (3).pdf;resumo_mensal_dashboard;Dezembro 2025;2025;12;despesa;;Despesas totais;despesa_total;38070,51;;Base estruturada usada pelo dashboard
+dados/Balancete contabil por periodo - Palestri Italia (3).pdf;resumo_mensal_dashboard;Dezembro 2025;2025;12;despesa;;Despesas ordinárias;despesa_ordinaria;18940,03;;Base estruturada usada pelo dashboard
+dados/Balancete contabil por periodo - Palestri Italia (3).pdf;resumo_mensal_dashboard;Dezembro 2025;2025;12;despesa;02.09;Despesas extraordinárias;despesa_extra;19130,48;;Base estruturada usada pelo dashboard
+dados/Balancete contabil por periodo - Palestri Italia (3).pdf;resumo_mensal_dashboard;Dezembro 2025;2025;12;resultado;;Resultado do mês;resultado;-5622,89;;Base estruturada usada pelo dashboard
+dados/Balancete contabil por periodo - Palestri Italia (3).pdf;resumo_mensal_dashboard;Dezembro 2025;2025;12;despesa;;Despesa com Pessoal;despesa_categoria_personnel;4276,02;;Categoria usada no gráfico de despesas
+dados/Balancete contabil por periodo - Palestri Italia (3).pdf;resumo_mensal_dashboard;Dezembro 2025;2025;12;despesa;;Contratos Fixos;despesa_categoria_contracts;6983,22;;Categoria usada no gráfico de despesas
+dados/Balancete contabil por periodo - Palestri Italia (3).pdf;resumo_mensal_dashboard;Dezembro 2025;2025;12;despesa;;Materiais de Conservação;despesa_categoria_materials;352,20;;Categoria usada no gráfico de despesas
+dados/202602.pdf;resumo_mensal_dashboard;Janeiro 2026;2026;1;receita;;Receitas totais;receita_total;28603,53;;Base estruturada usada pelo dashboard
+dados/202602.pdf;resumo_mensal_dashboard;Janeiro 2026;2026;1;receita;;Receitas ordinárias;receita_ordinaria;14111,24;;Base estruturada usada pelo dashboard
+dados/202602.pdf;resumo_mensal_dashboard;Janeiro 2026;2026;1;receita;01.01.01;Taxa Condominial;taxa_condominial;14492,49;;Base estruturada usada pelo dashboard
+dados/202602.pdf;resumo_mensal_dashboard;Janeiro 2026;2026;1;receita;01.01.02;Taxa Extra;receita_extra;14492,29;;Base estruturada usada pelo dashboard
+dados/202602.pdf;resumo_mensal_dashboard;Janeiro 2026;2026;1;despesa;;Despesas totais;despesa_total;35811,29;;Base estruturada usada pelo dashboard
+dados/202602.pdf;resumo_mensal_dashboard;Janeiro 2026;2026;1;despesa;;Despesas ordinárias;despesa_ordinaria;16680,81;;Base estruturada usada pelo dashboard
+dados/202602.pdf;resumo_mensal_dashboard;Janeiro 2026;2026;1;despesa;02.09;Despesas extraordinárias;despesa_extra;19130,48;;Base estruturada usada pelo dashboard
+dados/202602.pdf;resumo_mensal_dashboard;Janeiro 2026;2026;1;resultado;;Resultado do mês;resultado;-7207,76;;Base estruturada usada pelo dashboard
+dados/202602.pdf;resumo_mensal_dashboard;Janeiro 2026;2026;1;despesa;;Despesa com Pessoal;despesa_categoria_personnel;2920,75;;Categoria usada no gráfico de despesas
+dados/202602.pdf;resumo_mensal_dashboard;Janeiro 2026;2026;1;despesa;;Contratos Fixos;despesa_categoria_contracts;7055,32;;Categoria usada no gráfico de despesas
+dados/202602.pdf;resumo_mensal_dashboard;Janeiro 2026;2026;1;despesa;;Materiais de Conservação;despesa_categoria_materials;159,40;;Categoria usada no gráfico de despesas
+dados/202603.pdf;resumo_mensal_dashboard;Fevereiro 2026;2026;2;receita;;Receitas totais;receita_total;30600,47;;Base estruturada usada pelo dashboard
+dados/202603.pdf;resumo_mensal_dashboard;Fevereiro 2026;2026;2;receita;;Receitas ordinárias;receita_ordinaria;15220,08;;Base estruturada usada pelo dashboard
+dados/202603.pdf;resumo_mensal_dashboard;Fevereiro 2026;2026;2;receita;01.01.01;Taxa Condominial;taxa_condominial;15415,94;;Base estruturada usada pelo dashboard
+dados/202603.pdf;resumo_mensal_dashboard;Fevereiro 2026;2026;2;receita;01.01.02;Taxa Extra;receita_extra;15380,39;;Base estruturada usada pelo dashboard
+dados/202603.pdf;resumo_mensal_dashboard;Fevereiro 2026;2026;2;despesa;;Despesas totais;despesa_total;36120,35;;Base estruturada usada pelo dashboard
+dados/202603.pdf;resumo_mensal_dashboard;Fevereiro 2026;2026;2;despesa;;Despesas ordinárias;despesa_ordinaria;16989,87;;Base estruturada usada pelo dashboard
+dados/202603.pdf;resumo_mensal_dashboard;Fevereiro 2026;2026;2;despesa;02.09;Despesas extraordinárias;despesa_extra;19130,48;;Base estruturada usada pelo dashboard
+dados/202603.pdf;resumo_mensal_dashboard;Fevereiro 2026;2026;2;resultado;;Resultado do mês;resultado;-5519,88;;Base estruturada usada pelo dashboard
+dados/202603.pdf;resumo_mensal_dashboard;Fevereiro 2026;2026;2;despesa;;Despesa com Pessoal;despesa_categoria_personnel;2942,51;;Categoria usada no gráfico de despesas
+dados/202603.pdf;resumo_mensal_dashboard;Fevereiro 2026;2026;2;despesa;;Contratos Fixos;despesa_categoria_contracts;7107,54;;Categoria usada no gráfico de despesas
+dados/202603.pdf;resumo_mensal_dashboard;Fevereiro 2026;2026;2;despesa;;Materiais de Conservação;despesa_categoria_materials;760,88;;Categoria usada no gráfico de despesas
+dados/Palestri Itália - Previsão orçamentária (2026).xlsx;previsao_orcamentaria_xlsx;Previsão 2026;2026;;orcamento;;Despesa com Pessoal;previsao_mensal;3481,00;;Linha extraída da planilha de previsão
+dados/Palestri Itália - Previsão orçamentária (2026).xlsx;previsao_orcamentaria_xlsx;Previsão 2026;2026;;orcamento;;Salário de Funcionários;previsao_mensal;1442,00;;Linha extraída da planilha de previsão
+dados/Palestri Itália - Previsão orçamentária (2026).xlsx;previsao_orcamentaria_xlsx;Previsão 2026;2026;;orcamento;;INSS;previsao_mensal;563,00;;Linha extraída da planilha de previsão
+dados/Palestri Itália - Previsão orçamentária (2026).xlsx;previsao_orcamentaria_xlsx;Previsão 2026;2026;;orcamento;;PIS;previsao_mensal;18,00;;Linha extraída da planilha de previsão
+dados/Palestri Itália - Previsão orçamentária (2026).xlsx;previsao_orcamentaria_xlsx;Previsão 2026;2026;;orcamento;;Vale Transporte;previsao_mensal;273,00;;Linha extraída da planilha de previsão
+dados/Palestri Itália - Previsão orçamentária (2026).xlsx;previsao_orcamentaria_xlsx;Previsão 2026;2026;;orcamento;;FGTS;previsao_mensal;143,00;;Linha extraída da planilha de previsão
+dados/Palestri Itália - Previsão orçamentária (2026).xlsx;previsao_orcamentaria_xlsx;Previsão 2026;2026;;orcamento;;Férias de Funcionário;previsao_mensal;86,00;;Linha extraída da planilha de previsão
+dados/Palestri Itália - Previsão orçamentária (2026).xlsx;previsao_orcamentaria_xlsx;Previsão 2026;2026;;orcamento;;Pagamento de 13º salário;previsao_mensal;94,00;;Linha extraída da planilha de previsão
+dados/Palestri Itália - Previsão orçamentária (2026).xlsx;previsao_orcamentaria_xlsx;Previsão 2026;2026;;orcamento;;INSS sobre 13º salário;previsao_mensal;47,00;;Linha extraída da planilha de previsão
+dados/Palestri Itália - Previsão orçamentária (2026).xlsx;previsao_orcamentaria_xlsx;Previsão 2026;2026;;orcamento;;FGTS/PIS sobre 13º salário;previsao_mensal;8,00;;Linha extraída da planilha de previsão
+dados/Palestri Itália - Previsão orçamentária (2026).xlsx;previsao_orcamentaria_xlsx;Previsão 2026;2026;;orcamento;;Pensão;previsao_mensal;463,00;;Linha extraída da planilha de previsão
+dados/Palestri Itália - Previsão orçamentária (2026).xlsx;previsao_orcamentaria_xlsx;Previsão 2026;2026;;orcamento;;Fardamento;previsao_mensal;42,00;;Linha extraída da planilha de previsão
+dados/Palestri Itália - Previsão orçamentária (2026).xlsx;previsao_orcamentaria_xlsx;Previsão 2026;2026;;orcamento;;Serviços Prestados;previsao_mensal;193,00;;Linha extraída da planilha de previsão
+dados/Palestri Itália - Previsão orçamentária (2026).xlsx;previsao_orcamentaria_xlsx;Previsão 2026;2026;;orcamento;;Benefício Social;previsao_mensal;35,00;;Linha extraída da planilha de previsão
+dados/Palestri Itália - Previsão orçamentária (2026).xlsx;previsao_orcamentaria_xlsx;Previsão 2026;2026;;orcamento;;Certificado Digital;previsao_mensal;15,00;;Linha extraída da planilha de previsão
+dados/Palestri Itália - Previsão orçamentária (2026).xlsx;previsao_orcamentaria_xlsx;Previsão 2026;2026;;orcamento;;Exame/Laudo Ocupacional Periódico - SST;previsao_mensal;34,00;;Linha extraída da planilha de previsão
+dados/Palestri Itália - Previsão orçamentária (2026).xlsx;previsao_orcamentaria_xlsx;Previsão 2026;2026;;orcamento;;Plano Odontológico;previsao_mensal;25,00;;Linha extraída da planilha de previsão
+dados/Palestri Itália - Previsão orçamentária (2026).xlsx;previsao_orcamentaria_xlsx;Previsão 2026;2026;;orcamento;;Empresas Públicas e Privadas;previsao_mensal;3450,00;;Linha extraída da planilha de previsão
+dados/Palestri Itália - Previsão orçamentária (2026).xlsx;previsao_orcamentaria_xlsx;Previsão 2026;2026;;orcamento;;Consumo de Energia;previsao_mensal;619,00;;Linha extraída da planilha de previsão
+dados/Palestri Itália - Previsão orçamentária (2026).xlsx;previsao_orcamentaria_xlsx;Previsão 2026;2026;;orcamento;;Consumo de Água;previsao_mensal;2725,00;;Linha extraída da planilha de previsão
+dados/Palestri Itália - Previsão orçamentária (2026).xlsx;previsao_orcamentaria_xlsx;Previsão 2026;2026;;orcamento;;Seguro;previsao_mensal;106,00;;Linha extraída da planilha de previsão
+dados/Palestri Itália - Previsão orçamentária (2026).xlsx;previsao_orcamentaria_xlsx;Previsão 2026;2026;;orcamento;;Impostos e Tarifas;previsao_mensal;1863,00;;Linha extraída da planilha de previsão
+dados/Palestri Itália - Previsão orçamentária (2026).xlsx;previsao_orcamentaria_xlsx;Previsão 2026;2026;;orcamento;;INSS de Serviços Prestados;previsao_mensal;1225,00;;Linha extraída da planilha de previsão
+dados/Palestri Itália - Previsão orçamentária (2026).xlsx;previsao_orcamentaria_xlsx;Previsão 2026;2026;;orcamento;;PIS, COFINS e CSLL de Serviços Prestados;previsao_mensal;26,00;;Linha extraída da planilha de previsão
+dados/Palestri Itália - Previsão orçamentária (2026).xlsx;previsao_orcamentaria_xlsx;Previsão 2026;2026;;orcamento;;ISS de Serviços Prestados;previsao_mensal;541,00;;Linha extraída da planilha de previsão
+dados/Palestri Itália - Previsão orçamentária (2026).xlsx;previsao_orcamentaria_xlsx;Previsão 2026;2026;;orcamento;;Despesas Bancárias;previsao_mensal;71,00;;Linha extraída da planilha de previsão
+dados/Palestri Itália - Previsão orçamentária (2026).xlsx;previsao_orcamentaria_xlsx;Previsão 2026;2026;;orcamento;;Imobilizado;previsao_mensal;250,00;;Linha extraída da planilha de previsão
+dados/Palestri Itália - Previsão orçamentária (2026).xlsx;previsao_orcamentaria_xlsx;Previsão 2026;2026;;orcamento;;Compras Diversas;previsao_mensal;250,00;;Linha extraída da planilha de previsão
+dados/Palestri Itália - Previsão orçamentária (2026).xlsx;previsao_orcamentaria_xlsx;Previsão 2026;2026;;orcamento;;Serviços de Conservação;previsao_mensal;800,00;;Linha extraída da planilha de previsão
+dados/Palestri Itália - Previsão orçamentária (2026).xlsx;previsao_orcamentaria_xlsx;Previsão 2026;2026;;orcamento;;Serviço Hidráulico;previsao_mensal;75,00;;Linha extraída da planilha de previsão
+dados/Palestri Itália - Previsão orçamentária (2026).xlsx;previsao_orcamentaria_xlsx;Previsão 2026;2026;;orcamento;;Serviço Elétrico;previsao_mensal;75,00;;Linha extraída da planilha de previsão
+dados/Palestri Itália - Previsão orçamentária (2026).xlsx;previsao_orcamentaria_xlsx;Previsão 2026;2026;;orcamento;;Serviço de Pintura;previsao_mensal;90,00;;Linha extraída da planilha de previsão
+dados/Palestri Itália - Previsão orçamentária (2026).xlsx;previsao_orcamentaria_xlsx;Previsão 2026;2026;;orcamento;;Serviço de Dedetização;previsao_mensal;70,00;;Linha extraída da planilha de previsão
+dados/Palestri Itália - Previsão orçamentária (2026).xlsx;previsao_orcamentaria_xlsx;Previsão 2026;2026;;orcamento;;Serviço Prestado de Conservação;previsao_mensal;80,00;;Linha extraída da planilha de previsão
+dados/Palestri Itália - Previsão orçamentária (2026).xlsx;previsao_orcamentaria_xlsx;Previsão 2026;2026;;orcamento;;Serviços e Reparos Contra Incêndio;previsao_mensal;150,00;;Linha extraída da planilha de previsão
+dados/Palestri Itália - Previsão orçamentária (2026).xlsx;previsao_orcamentaria_xlsx;Previsão 2026;2026;;orcamento;;Recarga de Extintores;previsao_mensal;90,00;;Linha extraída da planilha de previsão
+dados/Palestri Itália - Previsão orçamentária (2026).xlsx;previsao_orcamentaria_xlsx;Previsão 2026;2026;;orcamento;;Limpeza de Caixa D’água e Caixa de Gordura/Esgoto;previsao_mensal;80,00;;Linha extraída da planilha de previsão
+dados/Palestri Itália - Previsão orçamentária (2026).xlsx;previsao_orcamentaria_xlsx;Previsão 2026;2026;;orcamento;;Conserto de Portão e/ou Interfone;previsao_mensal;90,00;;Linha extraída da planilha de previsão
+dados/Palestri Itália - Previsão orçamentária (2026).xlsx;previsao_orcamentaria_xlsx;Previsão 2026;2026;;orcamento;;Materiais de Conservação;previsao_mensal;500,00;;Linha extraída da planilha de previsão
+dados/Palestri Itália - Previsão orçamentária (2026).xlsx;previsao_orcamentaria_xlsx;Previsão 2026;2026;;orcamento;;Materiais Diversos;previsao_mensal;70,00;;Linha extraída da planilha de previsão
+dados/Palestri Itália - Previsão orçamentária (2026).xlsx;previsao_orcamentaria_xlsx;Previsão 2026;2026;;orcamento;;Material de Limpeza;previsao_mensal;180,00;;Linha extraída da planilha de previsão
+dados/Palestri Itália - Previsão orçamentária (2026).xlsx;previsao_orcamentaria_xlsx;Previsão 2026;2026;;orcamento;;Material de Piscina;previsao_mensal;70,00;;Linha extraída da planilha de previsão
+dados/Palestri Itália - Previsão orçamentária (2026).xlsx;previsao_orcamentaria_xlsx;Previsão 2026;2026;;orcamento;;Material Elétrico;previsao_mensal;50,00;;Linha extraída da planilha de previsão
+dados/Palestri Itália - Previsão orçamentária (2026).xlsx;previsao_orcamentaria_xlsx;Previsão 2026;2026;;orcamento;;Material Hidraúlico;previsao_mensal;50,00;;Linha extraída da planilha de previsão
+dados/Palestri Itália - Previsão orçamentária (2026).xlsx;previsao_orcamentaria_xlsx;Previsão 2026;2026;;orcamento;;Material de Pintura;previsao_mensal;80,00;;Linha extraída da planilha de previsão
+dados/Palestri Itália - Previsão orçamentária (2026).xlsx;previsao_orcamentaria_xlsx;Previsão 2026;2026;;orcamento;;Contratos Fixos;previsao_mensal;7376,00;;Linha extraída da planilha de previsão
+dados/Palestri Itália - Previsão orçamentária (2026).xlsx;previsao_orcamentaria_xlsx;Previsão 2026;2026;;orcamento;;Manutenção de Piscina;previsao_mensal;263,00;;Linha extraída da planilha de previsão
+dados/Palestri Itália - Previsão orçamentária (2026).xlsx;previsao_orcamentaria_xlsx;Previsão 2026;2026;;orcamento;;Taxa de Administração Contábil;previsao_mensal;1102,00;;Linha extraída da planilha de previsão
+dados/Palestri Itália - Previsão orçamentária (2026).xlsx;previsao_orcamentaria_xlsx;Previsão 2026;2026;;orcamento;;Segurança Eletrônica;previsao_mensal;1304,00;;Linha extraída da planilha de previsão
+dados/Palestri Itália - Previsão orçamentária (2026).xlsx;previsao_orcamentaria_xlsx;Previsão 2026;2026;;orcamento;;Manutenção de Elevador;previsao_mensal;492,00;;Linha extraída da planilha de previsão
+dados/Palestri Itália - Previsão orçamentária (2026).xlsx;previsao_orcamentaria_xlsx;Previsão 2026;2026;;orcamento;;Honorários do Síndico;previsao_mensal;1175,00;;Linha extraída da planilha de previsão
+dados/Palestri Itália - Previsão orçamentária (2026).xlsx;previsao_orcamentaria_xlsx;Previsão 2026;2026;;orcamento;;Locação de Equipamento de Segurança;previsao_mensal;3040,00;;Linha extraída da planilha de previsão
+dados/Palestri Itália - Previsão orçamentária (2026).xlsx;previsao_orcamentaria_xlsx;Previsão 2026;2026;;orcamento;;Despesas Diversas Ordinárias;previsao_mensal;104,00;;Linha extraída da planilha de previsão
+dados/Palestri Itália - Previsão orçamentária (2026).xlsx;previsao_orcamentaria_xlsx;Previsão 2026;2026;;orcamento;;Pagamento de Taxa de Renovações e Licença (AESA/FUNESBOM/IPVA/CREA);previsao_mensal;50,00;;Linha extraída da planilha de previsão
+dados/Palestri Itália - Previsão orçamentária (2026).xlsx;previsao_orcamentaria_xlsx;Previsão 2026;2026;;orcamento;;Bloquete, Xerox, Papelaria e Correios;previsao_mensal;54,00;;Linha extraída da planilha de previsão
+dados/Palestri Itália - Previsão orçamentária (2026).xlsx;previsao_orcamentaria_xlsx;Previsão 2026;2026;;orcamento;;TOTAL GERAL DESPESAS;previsao_mensal;17824,00;;Linha extraída da planilha de previsão
+dados/Palestri Itália - Previsão orçamentária (2026).xlsx;previsao_orcamentaria_xlsx;Previsão 2026;2026;;orcamento;;Fundo de Reserva (5%);previsao_mensal;891,20;;Linha extraída da planilha de previsão
+dados/Palestri Itália - Previsão orçamentária (2026).xlsx;previsao_orcamentaria_xlsx;Previsão 2026;2026;;orcamento;;Fundo de Manutenção (Limpeza e Impermeabilização de Fachada, Rejutamento da Piscina, Pintura de Halls) - 24 meses - Opcional;previsao_mensal;0,00;;Linha extraída da planilha de previsão
+dados/Palestri Itália - Previsão orçamentária (2026).xlsx;previsao_orcamentaria_xlsx;Previsão 2026;2026;;orcamento;;Total Despesas;previsao_mensal;18715,20;;Linha extraída da planilha de previsão
+dados/Palestri Itália - Previsão orçamentária (2026).xlsx;previsao_orcamentaria_dashboard;Previsão 2026;2026;;orcamento;;Contratos Fixos;previsao_mensal_categoria;7376,00;;Base estruturada usada pelo dashboard
+dados/Palestri Itália - Previsão orçamentária (2026).xlsx;previsao_orcamentaria_dashboard;Previsão 2026;2026;;orcamento;;Despesa com Pessoal;previsao_mensal_categoria;3481,00;;Base estruturada usada pelo dashboard
+dados/Palestri Itália - Previsão orçamentária (2026).xlsx;previsao_orcamentaria_dashboard;Previsão 2026;2026;;orcamento;;Empresas Públicas e Privadas;previsao_mensal_categoria;3450,00;;Base estruturada usada pelo dashboard
+dados/Palestri Itália - Previsão orçamentária (2026).xlsx;previsao_orcamentaria_dashboard;Previsão 2026;2026;;orcamento;;Impostos e Tarifas;previsao_mensal_categoria;1863,00;;Base estruturada usada pelo dashboard
+dados/Palestri Itália - Previsão orçamentária (2026).xlsx;previsao_orcamentaria_dashboard;Previsão 2026;2026;;orcamento;;Serviços de Conservação;previsao_mensal_categoria;800,00;;Base estruturada usada pelo dashboard
+dados/Palestri Itália - Previsão orçamentária (2026).xlsx;previsao_orcamentaria_dashboard;Previsão 2026;2026;;orcamento;;Materiais de Conservação;previsao_mensal_categoria;500,00;;Base estruturada usada pelo dashboard
+dados/Palestri Itália - Previsão orçamentária (2026).xlsx;previsao_orcamentaria_dashboard;Previsão 2026;2026;;orcamento;;Imobilizado;previsao_mensal_categoria;250,00;;Base estruturada usada pelo dashboard
+dados/Palestri Itália - Previsão orçamentária (2026).xlsx;previsao_orcamentaria_dashboard;Previsão 2026;2026;;orcamento;;Despesas Diversas Ordinárias;previsao_mensal_categoria;104,00;;Base estruturada usada pelo dashboard
+dados/Palestri Itália - Previsão orçamentária (2026).xlsx;previsao_orcamentaria_dashboard;Previsão 2026;2026;;orcamento;;Total geral despesas;previsao_mensal;17824,00;;Conferência da previsão
+dados/Palestri Itália - Previsão orçamentária (2026).xlsx;previsao_orcamentaria_dashboard;Previsão 2026;2026;;orcamento;;Fundo de reserva (5%);previsao_mensal;891,20;;Conferência da previsão
+dados/Palestri Itália - Previsão orçamentária (2026).xlsx;previsao_orcamentaria_dashboard;Previsão 2026;2026;;orcamento;;Fundo de manutenção opcional;previsao_mensal;0,00;;Conferência da previsão
+dados/Palestri Itália - Previsão orçamentária (2026).xlsx;previsao_orcamentaria_dashboard;Previsão 2026;2026;;orcamento;;Total despesas mensal;previsao_mensal;18715,20;;Conferência da previsão
+dados/Palestri Itália - Previsão orçamentária (2026).xlsx;previsao_orcamentaria_dashboard;Previsão 2026;2026;;orcamento;;Total despesas anual;previsao_anual;224582,40;;Conferência da previsão
+dados/202603.pdf;saldo_financeiro;FEV 2026;2026;2;saldo;;Conta Corrente SICOOB Creduni;saldo_conta_corrente;39695,08;;Saldo disponível atual exibido no dashboard
+dados/202603.pdf;saldo_financeiro;FEV 2026;2026;2;saldo;;Total financeiro;saldo_total_financeiro;46357,79;;Saldo total financeiro exibido como apoio

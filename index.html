@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Relatório Condominial | Palestri Itália</title>
+    <link
+      rel="icon"
+      href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%231b8c88'/%3E%3Cpath d='M14 20h36v7H14zm0 12h36v5H14zm0 11h24v7H14z' fill='%23ffffff'/%3E%3C/svg%3E"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="masthead">
+        <div class="brand-lockup">
+          <div>
+            <p class="eyebrow">Finanças condominiais</p>
+            <h1>Palestri Itália</h1>
+            <p class="intro">
+              Painel offline com realizado de 2025, filtros por tipo de receita
+              e despesa, e conferência da previsão orçamentária de 2026.
+            </p>
+          </div>
+        </div>
+      </header>
+
+      <main class="dashboard">
+        <section class="control-band" aria-label="Filtros do dashboard">
+          <label>
+            Ano
+            <select id="yearFilter"></select>
+          </label>
+
+          <label>
+            Tipo
+            <select id="typeFilter">
+              <option value="all">Todas as movimentações</option>
+              <option value="ordinary">Somente ordinárias</option>
+              <option value="extra">Somente extras</option>
+            </select>
+          </label>
+
+          <label>
+            Período
+            <select id="monthFilter">
+              <option value="all">Ano completo</option>
+            </select>
+          </label>
+
+          <div class="control-copy" id="filterSummary" aria-live="polite"></div>
+        </section>
+
+        <section class="metrics-grid" id="metricsGrid" aria-label="Indicadores"></section>
+
+        <section class="tabs-shell">
+          <div class="tabs-nav" role="tablist" aria-label="Seções do dashboard">
+            <button
+              class="tab-button is-active"
+              id="tab-overview"
+              type="button"
+              role="tab"
+              aria-selected="true"
+              aria-controls="panel-overview"
+              data-tab-target="overview"
+            >
+              Visão Geral
+            </button>
+            <button
+              class="tab-button"
+              id="tab-budget"
+              type="button"
+              role="tab"
+              aria-selected="false"
+              aria-controls="panel-budget"
+              data-tab-target="budget"
+            >
+              Previsão 2026
+            </button>
+            <button
+              class="tab-button"
+              id="tab-analysis"
+              type="button"
+              role="tab"
+              aria-selected="false"
+              aria-controls="panel-analysis"
+              data-tab-target="analysis"
+            >
+              Análises
+            </button>
+          </div>
+
+          <section
+            class="tab-panel is-active"
+            id="panel-overview"
+            role="tabpanel"
+            aria-labelledby="tab-overview"
+            data-tab-panel="overview"
+          >
+            <div class="overview-grid">
+              <div class="overview-stack">
+                <article class="panel" aria-labelledby="tableTitle">
+                  <div class="panel-heading">
+                    <p class="eyebrow">Detalhamento</p>
+                    <h2 id="tableTitle">Movimentação mensal</h2>
+                  </div>
+                  <div class="movement-layout">
+                    <div
+                      class="monthly-bar-chart"
+                      id="monthlyBarChart"
+                      aria-label="Gráfico de barras da movimentação mensal"
+                    ></div>
+                    <div class="table-wrap">
+                      <table>
+                        <thead>
+                          <tr>
+                            <th>Mês</th>
+                            <th>Receitas</th>
+                            <th>Despesas</th>
+                            <th>Resultado</th>
+                            <th>Situação</th>
+                          </tr>
+                        </thead>
+                        <tbody id="monthlyTableBody"></tbody>
+                      </table>
+                    </div>
+                  </div>
+                </article>
+
+                <article class="panel" aria-labelledby="expenseDetailTitle">
+                  <div class="panel-heading panel-heading-split">
+                    <div>
+                      <p class="eyebrow">Despesas</p>
+                      <h2 id="expenseDetailTitle">Detalhamento das despesas</h2>
+                    </div>
+                    <label class="inline-filter">
+                      Tipo de despesa
+                      <select id="expenseCategoryFilter">
+                        <option value="total">Total de despesas</option>
+                        <option value="ordinary">Ordinárias</option>
+                        <option value="extra">Extraordinárias</option>
+                        <option value="personnel">Pessoal / funcionários</option>
+                        <option value="contracts">Contratos fixos</option>
+                        <option value="materials">Materiais de conservação</option>
+                      </select>
+                    </label>
+                  </div>
+                  <div id="expenseDetailSummary" class="expense-summary"></div>
+                  <div class="expense-detail-layout">
+                    <div id="expenseCompositionChart" class="expense-composition"></div>
+                    <div id="expenseDetailList" class="expense-detail-list"></div>
+                  </div>
+                </article>
+              </div>
+            </div>
+          </section>
+
+          <section
+            class="tab-panel"
+            id="panel-budget"
+            role="tabpanel"
+            aria-labelledby="tab-budget"
+            data-tab-panel="budget"
+            hidden
+          >
+            <article class="panel" aria-labelledby="budgetTitle">
+              <div class="panel-heading">
+                <p class="eyebrow">Previsão 2026</p>
+                <h2 id="budgetTitle">Composição orçamentária mensal</h2>
+              </div>
+              <div class="budget-layout">
+                <div id="budgetBreakdown" class="budget-breakdown"></div>
+                <div class="budget-check">
+                  <h3>Conferência com a planilha</h3>
+                  <table>
+                    <tbody id="budgetCheckTable"></tbody>
+                  </table>
+                  <p class="budget-footnote" id="budgetFootnote"></p>
+                </div>
+              </div>
+            </article>
+
+            <article class="panel adjustment-panel" aria-labelledby="adjustmentTitle">
+              <div class="panel-heading">
+                <p class="eyebrow">Previsão 2026 x arrecadação ordinária</p>
+                <h2 id="adjustmentTitle">Impacto do ajuste por fração ideal</h2>
+              </div>
+              <div id="adjustmentImpact"></div>
+            </article>
+          </section>
+
+          <section
+            class="tab-panel"
+            id="panel-analysis"
+            role="tabpanel"
+            aria-labelledby="tab-analysis"
+            data-tab-panel="analysis"
+            hidden
+          >
+            <div class="panel-grid">
+              <article class="panel" aria-labelledby="insightsTitle">
+                <div class="panel-heading">
+                  <p class="eyebrow">Leitura rápida</p>
+                  <h2 id="insightsTitle">Destaques do caixa</h2>
+                </div>
+                <div id="insightsList" class="insights-list"></div>
+              </article>
+
+              <article class="panel" aria-labelledby="mixTitle">
+                <div class="panel-heading">
+                  <p class="eyebrow">Por tipo</p>
+                  <h2 id="mixTitle">Comparativo anual</h2>
+                </div>
+                <div id="typeMix" class="type-mix"></div>
+              </article>
+            </div>
+          </section>
+        </section>
+
+      </main>
+
+      <footer class="footer-note">
+        <p>
+          Fontes: <code>dados/Balancete contabil 2025.pdf</code>
+          <code>Previsão orçamentária 2026.xlsx</code>
+          e PDFs e balancetes mensais a partir de 2026.
+        </p>
+      </footer>
+    </div>
+
+    <script src="./app.js"></script>
+  </body>
+</html>
