@@ -23,6 +23,10 @@ let currentCondoAssessment = {
   monthlyTotal: 0,
   source: "",
 };
+let dashboardInitialized = false;
+
+const onTimePaymentDiscountRate = 0.05;
+const onTimePaymentFactor = 1 - onTimePaymentDiscountRate;
 
 const ipcaAdjustment = {
   label: "IPCA acumulado jan/2024 a mar/2026",
@@ -173,6 +177,18 @@ function formatPercent(value) {
   return `${percent.format(value)}%`;
 }
 
+function applyOnTimePaymentDiscount(value) {
+  return value * onTimePaymentFactor;
+}
+
+function grossUpOnTimePaymentDiscount(value) {
+  return value / onTimePaymentFactor;
+}
+
+function onTimePaymentDiscountLabel() {
+  return formatPercent(onTimePaymentDiscountRate * 100);
+}
+
 function sum(items, selector) {
   return items.reduce((total, item) => total + selector(item), 0);
 }
@@ -270,6 +286,8 @@ function buildMonthlyData(rows) {
           revenueOrdinary: 0,
           revenueExtra: 0,
           condoFee: 0,
+          condoFeeGross: 0,
+          condoFeeDiscount: 0,
           expenseTotal: 0,
           expenseOrdinary: 0,
           expenseExtra: 0,
@@ -292,6 +310,10 @@ function buildMonthlyData(rows) {
 
       if (fields[row.metrica]) {
         item[fields[row.metrica]] = value;
+      }
+      if (row.metrica === "taxa_condominial") {
+        item.condoFeeGross = grossUpOnTimePaymentDiscount(value);
+        item.condoFeeDiscount = item.condoFeeGross - value;
       }
       if (row.metrica === "despesa_categoria_personnel") {
         item.expenseCategories.personnel = value;
@@ -457,6 +479,10 @@ function averageOrdinaryRevenue(data = currentYearData()) {
 
 function averageCondoFee(data = currentYearData()) {
   return sum(data, (item) => item.condoFee) / data.length;
+}
+
+function averageCondoFeeGross(data = currentYearData()) {
+  return sum(data, (item) => item.condoFeeGross || grossUpOnTimePaymentDiscount(item.condoFee)) / data.length;
 }
 
 function expenseCategoryValue(item, categoryKey) {
@@ -747,6 +773,7 @@ function renderMetrics(data, type) {
   const yearData = currentYearData();
   const actualAverage = averageOrdinaryRevenue(yearData);
   const condoAverage = averageCondoFee(yearData);
+  const condoAverageGross = averageCondoFeeGross(yearData);
   const monthlyBudgetGap =
     monthsInScope === 1
       ? data[0].revenueOrdinary - budgetData.monthlyTotal
@@ -798,9 +825,9 @@ function renderMetrics(data, type) {
       note:
         monthsInScope === 1
           ? "Comparação do mês escolhido com a necessidade mensal da planilha."
-          : `Média ordinária de ${currentYear()}: ${formatCurrency(actualAverage)}. Taxa condominial pura: ${formatCurrency(
+          : `Média ordinária de ${currentYear()}: ${formatCurrency(actualAverage)}. Taxa condominial em dia: ${formatCurrency(
               condoAverage
-            )}.`,
+            )} (cheia: ${formatCurrency(condoAverageGross)}).`,
       tone: monthlyBudgetGap >= 0 ? "positive" : "negative",
     },
   ];
@@ -1018,6 +1045,7 @@ function renderExpenseDetail(data) {
 
 function renderBudget() {
   const maxCategory = Math.max(...budgetData.categories.map((item) => item.value), 1);
+  const requiredAssessmentBeforeDiscount = grossUpOnTimePaymentDiscount(budgetData.monthlyTotal);
 
   document.getElementById("budgetBreakdown").innerHTML = budgetData.categories
     .map((item) => {
@@ -1058,12 +1086,20 @@ function renderBudget() {
     budgetData.monthlyTotal
   )} por mes e ${formatCurrency(
     budgetData.annualTotal
-  )} no ano. A linha "${budgetData.adjustment}" aparece na planilha, mas sem valor aplicado.`;
+  )} no ano. A nova arrecadação com desconto em dia deve ser ${formatCurrency(
+    budgetData.monthlyTotal
+  )}, igual à previsão. Para isso, os boletos antes do desconto precisam somar ${formatCurrency(
+    requiredAssessmentBeforeDiscount
+  )} por mes.`;
 }
 
 function renderAdjustmentImpact() {
+  const currentAssessmentBeforeDiscount = currentCondoAssessment.monthlyTotal;
+  const currentAssessmentPaidOnTime = applyOnTimePaymentDiscount(currentAssessmentBeforeDiscount);
+  const plannedAssessmentPaidOnTime = budgetData.monthlyTotal;
+  const requiredAssessmentBeforeDiscount = grossUpOnTimePaymentDiscount(plannedAssessmentPaidOnTime);
   const adjustmentRate =
-    (budgetData.monthlyTotal / currentCondoAssessment.monthlyTotal - 1) * 100;
+    (plannedAssessmentPaidOnTime / currentAssessmentPaidOnTime - 1) * 100;
   const totalFractions = idealFractionBands.reduce(
     (total, band) => total + band.count * band.fraction,
     0
@@ -1072,19 +1108,19 @@ function renderAdjustmentImpact() {
   document.getElementById("adjustmentImpact").innerHTML = `
     <div class="adjustment-summary">
       <article class="adjustment-card">
-        <strong>Arrecadação ordinária atual</strong>
-        <span>${formatCurrency(currentCondoAssessment.monthlyTotal)}</span>
-        <p>${currentCondoAssessment.source}</p>
+        <strong>Arrecadação atual em dia</strong>
+        <span>${formatCurrency(currentAssessmentPaidOnTime)}</span>
+        <p>Taxa cheia atual: ${formatCurrency(currentAssessmentBeforeDiscount)}. ${currentCondoAssessment.source}</p>
       </article>
-      <article class="adjustment-card">
-        <strong>Previsão mensal 2026</strong>
-        <span>${formatCurrency(budgetData.monthlyTotal)}</span>
-        <p>Total mensal conferido com a planilha.</p>
+      <article class="adjustment-card highlight">
+        <strong>Nova arrecadação em dia</strong>
+        <span>${formatCurrency(plannedAssessmentPaidOnTime)}</span>
+        <p>Igual à previsão mensal 2026, já com desconto de ${onTimePaymentDiscountLabel()}.</p>
       </article>
       <article class="adjustment-card highlight">
         <strong>Ajuste global necessário</strong>
         <span>${formatPercent(adjustmentRate)}</span>
-        <p>Aplicado linearmente sobre a taxa condominial atual.</p>
+        <p>Compara a arrecadação atual em dia com a nova arrecadação em dia.</p>
       </article>
       <article class="adjustment-card ipca-card">
         <strong>IPCA do período</strong>
@@ -1094,46 +1130,64 @@ function renderAdjustmentImpact() {
     </div>
 
     <div class="table-wrap">
-      <table>
+      <table class="adjustment-table">
+        <colgroup>
+          <col class="col-type" />
+          <col class="col-units" />
+          <col class="col-fraction" />
+          <col class="col-money" />
+          <col class="col-money" />
+          <col class="col-money" />
+          <col class="col-money" />
+          <col class="col-diff" />
+          <col class="col-money" />
+          <col class="col-money" />
+        </colgroup>
         <thead>
           <tr>
             <th rowspan="2">Tipo</th>
             <th rowspan="2">Unidades</th>
             <th rowspan="2">Fração ideal</th>
-            <th rowspan="2">Taxa atual</th>
-            <th class="forecast-group" colspan="2">Reajuste pela previsão</th>
+            <th rowspan="2">Taxa cheia atual</th>
+            <th rowspan="2">Atual em dia</th>
+            <th class="forecast-group" colspan="3">Reajuste pela previsão</th>
             <th class="ipca-group" colspan="2">Reajuste pelo IPCA</th>
           </tr>
           <tr>
-            <th class="forecast-group">Taxa</th>
-            <th class="forecast-group">Diferença</th>
-            <th class="ipca-group">Taxa</th>
-            <th class="ipca-group">Diferença</th>
+            <th class="forecast-group">Em dia</th>
+            <th class="forecast-group">Taxa cheia</th>
+            <th class="forecast-group">Diferença em dia</th>
+            <th class="ipca-group">Em dia</th>
+            <th class="ipca-group">Taxa cheia</th>
           </tr>
         </thead>
         <tbody>
           ${[...idealFractionBands]
             .sort(
               (left, right) =>
-                currentCondoAssessment.monthlyTotal * left.fraction -
-                currentCondoAssessment.monthlyTotal * right.fraction
+                currentAssessmentBeforeDiscount * left.fraction -
+                currentAssessmentBeforeDiscount * right.fraction
             )
             .map((band) => {
-              const currentFee = currentCondoAssessment.monthlyTotal * band.fraction;
-              const ipcaAdjustedFee = currentFee * (1 + ipcaAdjustment.rate / 100);
-              const adjustedFee = budgetData.monthlyTotal * band.fraction;
-              const forecastDifference = adjustedFee - currentFee;
-              const ipcaDifference = ipcaAdjustedFee - currentFee;
+              const currentFeeBeforeDiscount = currentAssessmentBeforeDiscount * band.fraction;
+              const currentFeePaidOnTime = applyOnTimePaymentDiscount(currentFeeBeforeDiscount);
+              const adjustedFeePaidOnTime = plannedAssessmentPaidOnTime * band.fraction;
+              const adjustedFeeBeforeDiscount = grossUpOnTimePaymentDiscount(adjustedFeePaidOnTime);
+              const forecastDifference = adjustedFeePaidOnTime - currentFeePaidOnTime;
+              const ipcaAdjustedFeeBeforeDiscount = currentFeeBeforeDiscount * (1 + ipcaAdjustment.rate / 100);
+              const ipcaAdjustedFeePaidOnTime = applyOnTimePaymentDiscount(ipcaAdjustedFeeBeforeDiscount);
               return `
                 <tr>
                   <td>${band.type}</td>
                   <td>${band.units}</td>
                   <td>${band.fraction.toFixed(6).replace(".", ",")}</td>
-                  <td>${formatCurrency(currentFee)}</td>
-                  <td class="forecast-group">${formatCurrency(adjustedFee)}</td>
-                  <td class="forecast-group status-negative">+${formatCurrency(forecastDifference)}</td>
-                  <td class="ipca-group">${formatCurrency(ipcaAdjustedFee)}</td>
-                  <td class="ipca-group status-negative">+${formatCurrency(ipcaDifference)}</td>
+                  <td>${formatCurrency(currentFeeBeforeDiscount)}</td>
+                  <td>${formatCurrency(currentFeePaidOnTime)}</td>
+                  <td class="forecast-group">${formatCurrency(adjustedFeePaidOnTime)}</td>
+                  <td class="forecast-group">${formatCurrency(adjustedFeeBeforeDiscount)}</td>
+                  <td class="forecast-group status-negative">${formatSignedCurrency(forecastDifference)}</td>
+                  <td class="ipca-group">${formatCurrency(ipcaAdjustedFeePaidOnTime)}</td>
+                  <td class="ipca-group">${formatCurrency(ipcaAdjustedFeeBeforeDiscount)}</td>
                 </tr>
               `;
             })
@@ -1144,9 +1198,11 @@ function renderAdjustmentImpact() {
     <p class="adjustment-note">
       A soma das frações consideradas é ${totalFractions
         .toFixed(6)
-        .replace(".", ",")}. O grupo "Reajuste pela previsão" distribui o total mensal previsto de ${formatCurrency(
-    budgetData.monthlyTotal
-  )} pela fração ideal. O grupo "Reajuste pelo IPCA" usa ${ipcaAdjustment.label}, equivalente a ${formatPercent(
+        .replace(".", ",")}. Os valores "em dia" aplicam desconto de ${onTimePaymentDiscountLabel()} sobre a taxa cheia. O grupo "Reajuste pela previsão" distribui a nova arrecadação em dia de ${formatCurrency(
+    plannedAssessmentPaidOnTime
+  )}, exatamente igual à previsão, e informa a taxa cheia necessária de ${formatCurrency(
+    requiredAssessmentBeforeDiscount
+  )} antes do desconto. O grupo "Reajuste pelo IPCA" usa ${ipcaAdjustment.label}, equivalente a ${formatPercent(
     ipcaAdjustment.rate
   )}, conforme ${ipcaAdjustment.source}. A linha duplicada do Tipo E no documento de especificação foi considerada uma única vez para fechar 100% das frações.
     </p>
@@ -1444,6 +1500,9 @@ if (expenseFloatingBox) {
 }
 
 async function initDashboard() {
+  if (dashboardInitialized) return;
+  dashboardInitialized = true;
+
   try {
     await loadDashboardData();
     populateYearFilter();

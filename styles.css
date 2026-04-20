@@ -31,11 +31,6 @@ body {
   font-family: "Trebuchet MS", "Gill Sans", "Segoe UI", sans-serif;
 }
 
-img {
-  display: block;
-  max-width: 100%;
-}
-
 .page-shell {
   min-height: 100vh;
   padding: 28px 20px 32px;
@@ -974,6 +969,56 @@ select {
   color: #8a6919;
 }
 
+.adjustment-table {
+  table-layout: fixed;
+  font-size: 0.84rem;
+}
+
+.adjustment-table .col-type {
+  width: 6%;
+}
+
+.adjustment-table .col-units {
+  width: 20%;
+}
+
+.adjustment-table .col-fraction {
+  width: 8%;
+}
+
+.adjustment-table .col-money {
+  width: 9%;
+}
+
+.adjustment-table .col-diff {
+  width: 10%;
+}
+
+.adjustment-table th,
+.adjustment-table td {
+  padding: 8px 6px;
+  line-height: 1.25;
+}
+
+.adjustment-table th {
+  white-space: normal;
+  overflow-wrap: anywhere;
+}
+
+.adjustment-table td {
+  white-space: nowrap;
+}
+
+.adjustment-table th:first-child,
+.adjustment-table td:first-child {
+  padding-left: 0;
+}
+
+.adjustment-table th:last-child,
+.adjustment-table td:last-child {
+  padding-right: 0;
+}
+
 .status-chip {
   display: inline-flex;
   justify-content: center;
@@ -1012,7 +1057,7 @@ select {
 
 .adjustment-summary {
   display: grid;
-  grid-template-columns: repeat(4, minmax(0, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
   gap: 12px;
   margin-bottom: 18px;
 }
